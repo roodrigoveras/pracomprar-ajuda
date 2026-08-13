@@ -1,0 +1,124 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Central de Ajuda PraComprar",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#0049a0",
+    "light": "#3b82f6",
+    "dark": "#003a80"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Acessar o PraComprar",
+        "href": "https://pracomprar.app"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Falar com o suporte",
+      "href": "https://wa.me/SEUNUMEROAQUI"
+    }
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Introdução",
+        "icon": "rocket",
+        "pages": [
+          "introducao/o-que-e-o-pracomprar",
+          "introducao/instalar-o-app"
+        ]
+      },
+      {
+        "group": "Catálogo",
+        "icon": "box",
+        "pages": [
+          "catalogo/meus-itens",
+          "catalogo/adicionar-item",
+          "catalogo/categorias",
+          "catalogo/fornecedores"
+        ]
+      },
+      {
+        "group": "Primeiros Passos",
+        "icon": "flag-checkered",
+        "pages": [
+          "primeiros-passos/convidar-equipe",
+          "primeiros-passos/configurar-whatsapp"
+        ]
+      },
+      {
+        "group": "Listas e Cotações",
+        "icon": "cart-shopping",
+        "pages": [
+          "listas-e-cotacoes/criar-lista-de-compras",
+          "listas-e-cotacoes/gerar-cotacao",
+          "listas-e-cotacoes/comparar-fornecedores"
+        ]
+      },
+      {
+        "group": "Estoque",
+        "icon": "boxes-stacked",
+        "pages": [
+          "estoque/dashboard-de-estoque",
+          "estoque/visualizacao-de-estoque",
+          "estoque/locais-de-estoque",
+          "estoque/movimentacoes",
+          "estoque/analise-de-produtos",
+          "estoque/alertas-de-reposicao",
+          "estoque/fazer-uma-contagem",
+          "estoque/adicionar-estoque-manual",
+          "estoque/importar-nfe",
+          "estoque/integracao-cardapioweb",
+          "estoque/conferencia-de-recebimento",
+          "estoque/fichas-tecnicas"
+        ]
+      },
+      {
+        "group": "Relatórios e Rendimento",
+        "icon": "chart-line",
+        "pages": [
+          "relatorios-e-rendimento/historico-de-listas",
+          "relatorios-e-rendimento/controle-de-rendimento"
+        ]
+      },
+      {
+        "group": "Marketplace e Rotinas",
+        "icon": "shop",
+        "pages": [
+          "marketplace-e-rotinas/marketplace-de-fornecedores",
+          "marketplace-e-rotinas/checklists-e-rotinas",
+          "marketplace-e-rotinas/dashboard-de-rotinas",
+          "marketplace-e-rotinas/gamificacao"
+        ]
+      },
+      {
+        "group": "Conta e Configurações",
+        "icon": "gear",
+        "pages": [
+          "conta-e-configuracoes/minha-conta-e-assinatura",
+          "conta-e-configuracoes/importar-exportar-catalogo",
+          "conta-e-configuracoes/notificacoes"
+        ]
+      },
+      {
+        "group": "Dúvidas Frequentes",
+        "icon": "circle-question",
+        "pages": [
+          "duvidas-frequentes/perguntas-comuns"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://pracomprar.app"
+    }
+  }
+}
