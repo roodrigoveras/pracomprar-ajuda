@@ -25,7 +25,7 @@ Ele funciona direto do navegador, como um app instalável no celular ou computad
   <Card title="Marketplace e Rotinas" icon="shop" href="/marketplace-e-rotinas/marketplace-de-fornecedores">
     Descubra novos fornecedores no marketplace, e organize rotinas recorrentes de abertura, fechamento e limpeza da equipe, com dashboard de cumprimento e gamificação opcional
   </Card>
-  <Card title="Conta e Configurações" icon="gear" href="/conta-e-configuracoes/minha-conta-e-assinatura">
+  <Card title="Conta e Configurações" icon="gear" href="/conta-e-configuracoes/meu-perfil">
     Perfil, assinatura e pagamento, estabelecimentos, equipe, importação/exportação de catálogo em massa e notificações
   </Card>
 </CardGroup>

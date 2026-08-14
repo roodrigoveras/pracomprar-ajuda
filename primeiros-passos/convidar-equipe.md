@@ -1,40 +1,28 @@
 ---
 title: "Convidar sua equipe"
-description: "Como adicionar usuários e definir permissões no PraComprar"
+description: "Como adicionar usuários ao PraComprar e dar o primeiro acesso à equipe"
 ---
 
-O PraComprar permite que várias pessoas da sua equipe operem o sistema, cada uma com o nível de acesso adequado à sua função.
+O PraComprar permite que várias pessoas da sua equipe operem o sistema, cada uma com o nível de acesso adequado à sua função — proprietário, gerente ou colaborador.
 
 <Steps>
-  <Step title="Acesse Gerenciamento de Usuários">
-    No menu, entre em **Usuários** e clique em **Adicionar Usuário**
+  <Step title="Acesse Equipe">
+    Em **Configurações → Equipe**, clique em **+ Novo usuário**
   </Step>
-  <Step title="Preencha as informações básicas">
-    - **Nome completo**
-    - **Nome de usuário**
-    - **E-mail**
-    - **Senha** — mínimo de 8 caracteres
+  <Step title="Preencha os dados básicos">
+    Nome, usuário (login), WhatsApp/telefone, e-mail (opcional) e o **Tipo de usuário** (Gerente ou Colaborador)
   </Step>
-  <Step title="Escolha a função (tipo de usuário)">
-    <CardGroup cols={1}>
-      <Card title="⭐ Cliente / Proprietário" icon="crown">
-        Acesso total ao sistema. Use para sócios — só o proprietário principal pode transferir a titularidade da conta.
-      </Card>
-      <Card title="🔧 Gerente" icon="sliders">
-        Acesso configurável por permissões específicas (ex: só relatórios, só uma loja).
-      </Card>
-      <Card title="👷 Colaborador" icon="user">
-        Acesso limitado apenas às tarefas atribuídas a ele, como contagens ou conferências.
-      </Card>
-    </CardGroup>
+  <Step title="Defina o estabelecimento principal">
+    Obrigatório — é a loja em que esse usuário atua por padrão
   </Step>
-  <Step title="Configure as permissões (se for Gerente)">
-    Ao escolher **Gerente**, aparecem as opções de permissões — dá pra restringir por estabelecimento e por área do sistema, com um campo de observação (ex: *"Gerente da loja de Natal, acesso limitado a relatórios"*)
-  </Step>
-  <Step title="Salve o usuário">
-    A pessoa já pode fazer login com o e-mail e senha cadastrados
+  <Step title="Salve">
+    A pessoa já pode fazer login com o usuário e senha cadastrados
   </Step>
 </Steps>
+
+<Tip>
+  Depois de criado, configure exatamente o que cada gerente ou colaborador pode acessar — veja o detalhe completo do sistema de permissões em [Equipe](/conta-e-configuracoes/equipe).
+</Tip>
 
 <Card title="Próximo passo" icon="arrow-right" href="/primeiros-passos/configurar-whatsapp">
   Conecte o WhatsApp do seu estabelecimento

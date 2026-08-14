@@ -117,8 +117,12 @@
         "group": "Conta e Configurações",
         "icon": "gear",
         "pages": [
-          "conta-e-configuracoes/minha-conta-e-assinatura",
+          "conta-e-configuracoes/meu-perfil",
+          "conta-e-configuracoes/assinatura",
+          "conta-e-configuracoes/estabelecimentos",
+          "conta-e-configuracoes/equipe",
           "conta-e-configuracoes/importar-exportar-catalogo",
+          "conta-e-configuracoes/registros",
           "conta-e-configuracoes/notificacoes"
         ]
       },
