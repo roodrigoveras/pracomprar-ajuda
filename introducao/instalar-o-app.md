@@ -84,6 +84,6 @@ O PraComprar é um app web (PWA). Isso significa que você não precisa baixar n
 - Funciona em tela cheia, sem a barra de endereço do navegador
 - Sempre atualizado automaticamente — não precisa reinstalar nada
 
-<Card title="Próximo passo" icon="arrow-right" href="/catalogo/adicionar-item">
-  Monte seu catálogo de produtos
+<Card title="Próximo passo" icon="arrow-right" href="/introducao/minhas-tarefas">
+  Conheça a tela de Minhas Tarefas
 </Card>

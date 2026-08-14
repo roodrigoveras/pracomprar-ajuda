@@ -33,16 +33,20 @@
         "icon": "rocket",
         "pages": [
           "introducao/o-que-e-o-pracomprar",
-          "introducao/instalar-o-app"
+          "introducao/instalar-o-app",
+          "introducao/minhas-tarefas",
+          "introducao/dashboard"
         ]
       },
       {
-        "group": "Catálogo",
+        "group": "Gestão de Itens",
         "icon": "box",
         "pages": [
           "catalogo/meus-itens",
           "catalogo/adicionar-item",
+          "catalogo/editar-item",
           "catalogo/categorias",
+          "catalogo/atribuir-produtos-em-massa",
           "catalogo/fornecedores"
         ]
       },
@@ -59,6 +63,10 @@
         "icon": "cart-shopping",
         "pages": [
           "listas-e-cotacoes/criar-lista-de-compras",
+          "listas-e-cotacoes/gerenciar-itens-da-lista",
+          "listas-e-cotacoes/configurar-lista",
+          "listas-e-cotacoes/usuarios-da-lista",
+          "listas-e-cotacoes/preencher-e-enviar-pedido",
           "listas-e-cotacoes/gerar-cotacao",
           "listas-e-cotacoes/comparar-fornecedores"
         ]
@@ -87,7 +95,8 @@
         "icon": "chart-line",
         "pages": [
           "relatorios-e-rendimento/historico-de-listas",
-          "relatorios-e-rendimento/controle-de-rendimento",
+          "relatorios-e-rendimento/transformacao-e-rendimentos",
+          "relatorios-e-rendimento/pesagem-com-tara",
           "relatorios-e-rendimento/comparar-contagens"
         ]
       },

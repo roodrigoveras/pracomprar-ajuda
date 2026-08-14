@@ -15,11 +15,20 @@ A contagem física é o que mantém o seu estoque no PraComprar batendo com a re
   <Step title="Defina o escopo da contagem">
     Escolha quais produtos ou categorias entram nessa contagem — pode ser o estoque todo ou só uma parte
   </Step>
-  <Step title="Registre as quantidades">
-    Percorra os itens da lista e informe a quantidade contada de cada um
+  <Step title="Execute a contagem, local por local">
+    Os itens ficam agrupados por local de estoque (ex: Bebida, Cozinha, Freezer Vertical, Geladeira), cada grupo mostrando quantos itens já foram contados daquele local (ex: *"21/30 contados"*)
   </Step>
-  <Step title='Clique em "Finalizar"'>
-    Confirme no modal de **Finalizar Contagem** — o sistema mostra as divergências entre o estoque registrado e o que foi contado
+  <Step title="Informe a quantidade contada de cada item">
+    Ao lado de cada produto, o sistema mostra o **Esperado** (quantidade que deveria ter, segundo o sistema) — digite a quantidade que você realmente contou
+  </Step>
+  <Step title="Acompanhe a variação em tempo real">
+    Assim que você confirma um item, aparece a **Variação**: a diferença entre o que foi contado e o esperado (ex: *Esperado: 24 un* → contou *18* → *Variação: -6.000 un*). Positivo é sobra, negativo é falta
+  </Step>
+  <Step title="Acompanhe o progresso total">
+    O topo da tela mostra quantos itens já foram contados no total (ex: *132/241 itens*)
+  </Step>
+  <Step title='Clique em "Finalizar Contagem"'>
+    Só é possível finalizar depois de contar todos os itens — o sistema mostra o relatório final de divergências entre o estoque registrado e o que foi contado
   </Step>
 </Steps>
 

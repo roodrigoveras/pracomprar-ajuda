@@ -18,18 +18,32 @@ A lista de compras é o ponto de partida de toda a rotina de compras: é a parti
   <Step title='Clique em "Criar Lista"'>
     A lista é criada e já aparece na sua lista de listas, pronta para receber itens
   </Step>
-  <Step title="Adicione os itens">
-    Clique em **Gerenciar Itens** na lista criada para adicionar os produtos que você precisa comprar
+  <Step title="Escolha quais itens do catálogo entram na lista">
+    Clique no ícone de **Itens** (caixa) para abrir [Gerenciar Itens da Lista](/listas-e-cotacoes/gerenciar-itens-da-lista) e decidir quais produtos do seu catálogo fazem parte dessa lista
   </Step>
 </Steps>
 
-## O que você pode fazer com uma lista já criada
+## Ações disponíveis por lista
 
-- **Gerenciar Itens** — adicionar, remover ou ajustar quantidades
-- **Usuários da Lista** — definir quem da equipe pode ver ou editar essa lista
-- **Configurar Lista** — ajustes gerais
-- **Editar Lista** — alterar nome ou o endereço (slug) da lista
-- **Excluir Lista** — remove a lista permanentemente
+Cada lista tem 5 ícones de ação:
+
+<CardGroup cols={2}>
+  <Card title="Itens" icon="box">
+    Abre [Gerenciar Itens da Lista](/listas-e-cotacoes/gerenciar-itens-da-lista) — inclui ou remove produtos do catálogo nessa lista
+  </Card>
+  <Card title="Usuários" icon="users">
+    Abre [Usuários da Lista](/listas-e-cotacoes/usuarios-da-lista) — define quem da equipe acessa e quais categorias cada um vê
+  </Card>
+  <Card title="Configurar" icon="gear">
+    Abre [Configurar Lista](/listas-e-cotacoes/configurar-lista) — tipo de lista, método de envio e exibição
+  </Card>
+  <Card title="Editar" icon="pen">
+    Altera o nome ou o endereço (slug) da lista
+  </Card>
+  <Card title="Excluir" icon="trash">
+    Remove a lista permanentemente
+  </Card>
+</CardGroup>
 
 ## Duplicar ou mover para outro estabelecimento
 
@@ -51,6 +65,6 @@ Se você tem mais de um estabelecimento na conta, dá pra reaproveitar uma lista
   </Step>
 </Steps>
 
-<Card title="Próximo passo" icon="arrow-right" href="/listas-e-cotacoes/gerar-cotacao">
-  Gere uma cotação a partir da sua lista
+<Card title="Próximo passo" icon="arrow-right" href="/listas-e-cotacoes/gerenciar-itens-da-lista">
+  Escolha quais itens fazem parte da lista
 </Card>

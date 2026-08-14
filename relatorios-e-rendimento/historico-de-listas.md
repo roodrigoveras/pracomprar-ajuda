@@ -31,6 +31,6 @@ Toda lista de compras criada fica registrada no histórico, com filtros para voc
 | **Excel** | Exporta os dados para uma planilha |
 | **Excluir** | Remove as listas selecionadas permanentemente |
 
-<Card title="Veja também" icon="arrow-right" href="/relatorios-e-rendimento/controle-de-rendimento">
-  Controle de rendimento e aproveitamento
+<Card title="Veja também" icon="arrow-right" href="/relatorios-e-rendimento/transformacao-e-rendimentos">
+  Veja como lançar produção e rendimento
 </Card>
