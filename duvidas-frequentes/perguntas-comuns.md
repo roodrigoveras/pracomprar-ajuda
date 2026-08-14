@@ -31,6 +31,13 @@ description: "Respostas rápidas para as dúvidas mais comuns sobre o PraComprar
 
 </AccordionGroup>
 
-<Card title="Não encontrou o que precisava?" icon="whatsapp" href="https://wa.me/SEUNUMEROAQUI">
-  Fale com o nosso suporte
-</Card>
+## Não encontrou o que precisava?
+
+<CardGroup cols={2}>
+  <Card title="Suporte — WhatsApp 1" icon="whatsapp" href="https://wa.me/5584998196203">
+    (84) 99819-6203
+  </Card>
+  <Card title="Suporte — WhatsApp 2" icon="whatsapp" href="https://wa.me/5584994022539">
+    (84) 99402-2539
+  </Card>
+</CardGroup>

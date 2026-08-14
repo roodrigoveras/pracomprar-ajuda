@@ -15,8 +15,16 @@ Quando um pedido aprovado chega no seu estabelecimento, o PraComprar já cria au
   <Step title="Confira item por item">
     Para cada produto, registre a quantidade que realmente chegou. O sistema sinaliza automaticamente quando a quantidade recebida diverge da quantidade pedida
   </Step>
+  <Step title="Preencha a entrada no estoque">
+    Ao confirmar um item, o painel **Entrada no Estoque** pede:
+    - **Qtd. Recebida** — quantidade e unidade
+    - **Valor Unitário** — custo do item, usado para manter o valor do estoque atualizado
+    - **Validade** — data de validade do produto (opcional)
+    - **Local de destino** — obrigatório: em qual local de estoque esse item vai entrar
+    - **Salvar padrão** — marque essa opção pra não precisar repetir local e valor toda vez que receber esse mesmo item
+  </Step>
   <Step title="Registre observações, se necessário">
-    Dá pra adicionar uma observação em itens com problema (produto vencido, quantidade errada, embalagem danificada, etc.)
+    Dá pra adicionar uma observação em itens com problema (quantidade errada, embalagem danificada, etc.)
   </Step>
   <Step title="Finalize a conferência">
     Ao concluir a conferência, o **estoque é atualizado automaticamente** com o que foi efetivamente recebido

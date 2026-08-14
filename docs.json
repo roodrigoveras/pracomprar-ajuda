@@ -7,10 +7,7 @@
     "dark": "/images/pracomprar-white.svg",
     "href": "https://ajuda.pracomprar.app"
   },
-  "favicon": {
-    "light": "/images/prcmp500.png",
-    "dark": "/favicon.png"
-  },
+  "favicon": "/images/prcmp500.png",
   "colors": {
     "primary": "#0049a0",
     "light": "#3b82f6",
@@ -26,7 +23,7 @@
     "primary": {
       "type": "button",
       "label": "Falar com o suporte",
-      "href": "https://wa.me/SEUNUMEROAQUI"
+      "href": "https://wa.me/5584998196203"
     }
   },
   "navigation": {
@@ -81,7 +78,8 @@
           "estoque/importar-nfe",
           "estoque/integracao-cardapioweb",
           "estoque/conferencia-de-recebimento",
-          "estoque/fichas-tecnicas"
+          "estoque/fichas-tecnicas",
+          "estoque/impressao-pctray"
         ]
       },
       {
@@ -89,7 +87,8 @@
         "icon": "chart-line",
         "pages": [
           "relatorios-e-rendimento/historico-de-listas",
-          "relatorios-e-rendimento/controle-de-rendimento"
+          "relatorios-e-rendimento/controle-de-rendimento",
+          "relatorios-e-rendimento/comparar-contagens"
         ]
       },
       {

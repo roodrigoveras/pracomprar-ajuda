@@ -24,6 +24,10 @@ Depois de montar sua lista de compras, o próximo passo é pedir cotação para 
   O fornecedor não precisa ter conta no PraComprar para responder — ele recebe um link único pelo WhatsApp e responde por ali mesmo.
 </Info>
 
+<Note>
+  O link enviado ao fornecedor expira em **48 horas**. Se ele ainda não respondeu, o PraComprar envia um lembrete automático pelo WhatsApp faltando 24h para o prazo acabar.
+</Note>
+
 <Card title="Próximo passo" icon="arrow-right" href="/listas-e-cotacoes/comparar-fornecedores">
   Compare as respostas e aprove os melhores preços
 </Card>
