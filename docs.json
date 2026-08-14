@@ -68,7 +68,9 @@
           "listas-e-cotacoes/usuarios-da-lista",
           "listas-e-cotacoes/preencher-e-enviar-pedido",
           "listas-e-cotacoes/gerar-cotacao",
-          "listas-e-cotacoes/comparar-fornecedores"
+          "listas-e-cotacoes/historico-de-cotacoes",
+          "listas-e-cotacoes/comparar-fornecedores",
+          "listas-e-cotacoes/detalhes-da-cotacao"
         ]
       },
       {
@@ -95,6 +97,7 @@
         "icon": "chart-line",
         "pages": [
           "relatorios-e-rendimento/historico-de-listas",
+          "relatorios-e-rendimento/detalhes-da-lista-gerada",
           "relatorios-e-rendimento/transformacao-e-rendimentos",
           "relatorios-e-rendimento/pesagem-com-tara",
           "relatorios-e-rendimento/comparar-contagens"

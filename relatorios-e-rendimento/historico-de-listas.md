@@ -14,9 +14,12 @@ Toda lista de compras criada fica registrada no histórico, com filtros para voc
   </Step>
   <Step title="Filtre por tipo e origem">
     - **Tipo**: Todas / Normais / Mescladas
-    - **Origem**: Todas / Compra / Contagem simples
+    - **Origem**: Pedido / Contagem
   </Step>
-  <Step title="Selecione uma ou mais listas">
+  <Step title="Clique numa lista pra ver os detalhes">
+    Abre a tela de [Detalhes da Lista Gerada](/relatorios-e-rendimento/detalhes-da-lista-gerada), onde você pode editar, reenviar ou pedir cotação
+  </Step>
+  <Step title="Ou selecione uma ou mais listas pra ações em lote">
     Marque as listas que quer trabalhar em conjunto — a barra de ações aparece com as opções disponíveis
   </Step>
 </Steps>

@@ -3,17 +3,17 @@ title: "Gerar uma cotação"
 description: "Como pedir cotação para fornecedores a partir de uma lista de compras"
 ---
 
-Depois de montar sua lista de compras, o próximo passo é pedir cotação para os fornecedores — o PraComprar envia a solicitação automaticamente pelo WhatsApp.
+Depois de enviar um pedido, você pode pedir cotação para os fornecedores em vez de (ou além de) enviar o pedido direto — o PraComprar envia a solicitação automaticamente pelo WhatsApp.
 
 <Steps>
-  <Step title="Abra a lista já criada">
-    Em **Minhas Listas**, clique na lista com os itens que você quer cotar
+  <Step title="Abra os detalhes da lista">
+    Em [Detalhes da Lista Gerada](/relatorios-e-rendimento/detalhes-da-lista-gerada), clique em **Cotação**
   </Step>
-  <Step title='Clique em "Gerar Cotação"'>
-    Você entra na tela **Gerar Cotação** com o número da lista
+  <Step title="Confira o resumo">
+    No topo aparecem 4 números: **Fornecedores**, **Itens para cotar**, **Sem WhatsApp** e **Sem fornecedor**
   </Step>
-  <Step title="Selecione os fornecedores">
-    Marque os fornecedores que devem receber a cotação — ou use **Selecionar todos** para marcar todos de uma vez
+  <Step title="Revise os fornecedores e itens agrupados">
+    Os itens ficam agrupados por fornecedor, com a tag **Principal** nos itens onde aquele é o fornecedor principal. Use **Selecionar todos** pra marcar tudo de uma vez, ou desmarque fornecedores/itens específicos
   </Step>
   <Step title='Clique em "Enviar Cotações"'>
     O PraComprar dispara a solicitação para todos os fornecedores selecionados de uma só vez, pelo WhatsApp
@@ -30,4 +30,8 @@ Depois de montar sua lista de compras, o próximo passo é pedir cotação para 
 
 <Card title="Próximo passo" icon="arrow-right" href="/listas-e-cotacoes/comparar-fornecedores">
   Compare as respostas e aprove os melhores preços
+</Card>
+
+<Card title="Ou acompanhe tudo pelo histórico" icon="clock-rotate-left" href="/listas-e-cotacoes/historico-de-cotacoes">
+  Veja o histórico completo de cotações e seus indicadores
 </Card>
