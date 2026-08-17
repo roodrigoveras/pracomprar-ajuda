@@ -1,14 +1,9 @@
 ---
 title: "Gerenciar itens da lista"
 description: "Como escolher quais produtos do catálogo fazem parte de uma lista de compras"
-icon: "lightbulb"
 ---
 
 Antes de preencher quantidades, você decide **quais produtos do catálogo pertencem a essa lista**. Uma lista não precisa ter todos os 290 itens do seu catálogo — só os que fazem sentido pra ela (ex: uma lista "Sushibar" só com os itens daquele setor).
-
-ESPERANDO ATUALIZAR O EMBED
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y1dPLVOVNr8?si=IyClTs23p55q9wm-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
 
 <Steps>
   <Step title="Abra Gerenciar Itens">
