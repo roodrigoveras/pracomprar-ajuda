@@ -5,6 +5,8 @@ description: "Como escolher quais produtos do catálogo fazem parte de uma lista
 
 Antes de preencher quantidades, você decide **quais produtos do catálogo pertencem a essa lista**. Uma lista não precisa ter todos os 290 itens do seu catálogo — só os que fazem sentido pra ela (ex: uma lista "Sushibar" só com os itens daquele setor).
 
+tESTANDO INSERÇÃO
+
 <Steps>
   <Step title="Abra Gerenciar Itens">
     Em **Minhas Listas**, clique no ícone de **Itens** (caixa) na lista desejada
