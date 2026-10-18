@@ -11,7 +11,7 @@ Ele funciona direto do navegador, como um app instalável no celular ou computad
 
 Assista ao vídeo para conhecer o módulo antes de seguir o passo a passo.
 
-<iframe width="1260" height="720" src="https://www.youtube.com/embed/j_r3DlLOUxI?si=8eo0Datfn077dV_p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
+<iframe width="720" height="405" src="https://www.youtube.com/embed/j_r3DlLOUxI?si=8eo0Datfn077dV_p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
 
 <Note>
   Alguns recursos podem variar conforme o perfil de acesso e os módulos habilitados na sua conta.
