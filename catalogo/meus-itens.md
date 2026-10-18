@@ -9,7 +9,7 @@ A aba **Meus Itens**, dentro de **Gestão de Itens**, é onde ficam todos os pro
 
 Assista ao vídeo para conhecer o módulo antes de seguir o passo a passo.
 
-<video controls preload="metadata" src="/videos/gestao-de-itens.mp4"></video>
+<Note>Vídeo demonstrativo: espaço reservado para incorporar o vídeo quando estiver hospedado e disponível na Central de Ajuda.</Note>
 
 <Note>
   Alguns recursos podem variar conforme o perfil de acesso e os módulos habilitados na sua conta.
