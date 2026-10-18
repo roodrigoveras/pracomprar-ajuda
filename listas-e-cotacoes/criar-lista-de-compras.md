@@ -1,69 +1,81 @@
 ---
-title: "Criar uma lista de compras"
-description: "Como criar e organizar uma lista de compras no PraComprar"
+title: "Criar uma lista"
+description: "Como criar e organizar listas de pedido, contagem ou contagem + pedido em Minhas Listas"
 ---
 
-A lista de compras é o ponto de partida de toda a rotina de compras: é a partir dela que você gera cotações e envia pedidos aos fornecedores.
+A lista é o ponto de partida da rotina de compras e de contagem: é a partir dela que sua equipe informa o que precisa pedir ou o que tem em estoque, e que você gera cotações e envia pedidos aos fornecedores.
 
-<Steps>
-  <Step title="Acesse Minhas Listas">
-    No menu, entre em **Minhas Listas** — aqui ficam todas as listas já criadas e o botão para criar novas
-  </Step>
-  <Step title='Clique em "Nova Lista"'>
-    Um painel abre com o formulário de criação
-  </Step>
-  <Step title="Dê um nome para a lista">
-    Ex: *"Compras da semana"* — use nomes que ajudem a identificar o período ou finalidade da compra
-  </Step>
-  <Step title='Clique em "Criar Lista"'>
-    A lista é criada e já aparece na sua lista de listas, pronta para receber itens
-  </Step>
-  <Step title="Escolha quais itens do catálogo entram na lista">
-    Clique no ícone de **Itens** (caixa) para abrir [Gerenciar Itens da Lista](/listas-e-cotacoes/gerenciar-itens-da-lista) e decidir quais produtos do seu catálogo fazem parte dessa lista
-  </Step>
-</Steps>
+## Os três tipos de lista
 
-## Ações disponíveis por lista
-
-Cada lista tem 5 ícones de ação:
-
-<CardGroup cols={2}>
-  <Card title="Itens" icon="box">
-    Abre [Gerenciar Itens da Lista](/listas-e-cotacoes/gerenciar-itens-da-lista) — inclui ou remove produtos do catálogo nessa lista
+<CardGroup cols={3}>
+  <Card title="Pedido" icon="cart-shopping">
+    Monta o pedido e envia aos fornecedores
   </Card>
-  <Card title="Usuários" icon="users">
-    Abre [Usuários da Lista](/listas-e-cotacoes/usuarios-da-lista) — define quem da equipe acessa e quais categorias cada um vê
+  <Card title="Contagem" icon="clipboard-check">
+    Registra o que há no estoque, sem gerar pedido
   </Card>
-  <Card title="Configurar" icon="gear">
-    Abre [Configurar Lista](/listas-e-cotacoes/configurar-lista) — tipo de lista, método de envio e exibição
-  </Card>
-  <Card title="Editar" icon="pen">
-    Altera o nome ou o endereço (slug) da lista
-  </Card>
-  <Card title="Excluir" icon="trash">
-    Remove a lista permanentemente
+  <Card title="Contagem + pedido" icon="arrow-down-up">
+    Conta e pede na mesma lista: cada item tem dois contadores
   </Card>
 </CardGroup>
 
-## Duplicar ou mover para outro estabelecimento
+Na **Contagem + pedido**, ao enviar, o PraComprar gera **duas listas normais** ligadas entre si: uma de contagem e uma de pedido.
 
-Se você tem mais de um estabelecimento na conta, dá pra reaproveitar uma lista sem recomeçar do zero:
+## Criar a lista
 
 <Steps>
-  <Step title="Abra as configurações da lista">
-    Clique em **Configurar Lista**
+  <Step title="Acesse Minhas Listas">
+    No menu, entre em **Minhas Listas**. Cada lista aparece com ícone e etiqueta do tipo e o endereço clicável que sua equipe usa para abrir
   </Step>
-  <Step title='Escolha "Duplicar Lista" ou "Mover para outro estabelecimento"'>
-    - **Duplicar** — cria uma cópia da lista (você escolhe o nome da cópia) em qualquer estabelecimento, mantendo a original intacta
-    - **Mover** — só aparece se você tiver mais de um estabelecimento cadastrado; transfere a lista definitivamente para outra unidade
+  <Step title='Clique em "Nova lista"'>
+    Um painel abre no topo da página
   </Step>
-  <Step title="Escolha o estabelecimento de destino">
-    Selecione pra qual estabelecimento a cópia (ou a lista movida) deve ir
+  <Step title="Dê um nome">
+    Ex.: *Compras da semana*. Use um nome que ajude a identificar o setor ou o período
   </Step>
-  <Step title='Confirme'>
-    Clique em **Confirmar Duplicação** ou **Verificar e Mover**, dependendo da opção escolhida
+  <Step title="Escolha o tipo">
+    Selecione **Pedido**, **Contagem** ou **Contagem + pedido** nos cartões
+  </Step>
+  <Step title='Clique em "Criar lista"'>
+    A lista aparece em Minhas Listas, pronta para receber itens
+  </Step>
+  <Step title="Escolha os itens da lista">
+    Clique em **Itens** para abrir [Itens da lista](/listas-e-cotacoes/gerenciar-itens-da-lista) e decidir quais produtos do catálogo fazem parte dela
   </Step>
 </Steps>
+
+<Note>
+  O endereço da lista é gerado automaticamente a partir do **estabelecimento + nome** e não pode mais ser editado à mão. É ele que sua equipe abre no celular.
+</Note>
+
+## O que cada linha oferece
+
+<CardGroup cols={2}>
+  <Card title="Itens" icon="box" href="/listas-e-cotacoes/gerenciar-itens-da-lista">
+    Inclui ou remove produtos do catálogo nessa lista
+  </Card>
+  <Card title="Usuários" icon="users" href="/listas-e-cotacoes/usuarios-da-lista">
+    Define quem da equipe acessa e quais categorias cada um vê
+  </Card>
+  <Card title="Configurar" icon="gear" href="/listas-e-cotacoes/configurar-lista">
+    Tipo, envio, exibição, estoque e estabelecimento
+  </Card>
+  <Card title="Menu ⋯" icon="ellipsis">
+    **Renomear** e **Excluir lista**
+  </Card>
+</CardGroup>
+
+## Renomear
+
+Em **⋯ → Renomear**, o nome vira um campo na própria linha. Digite o novo nome (**Enter** salva, **Esc** cancela) e veja a prévia do novo endereço.
+
+<Warning>
+  Se o nome mudar, o endereço muda junto e **o endereço antigo deixa de funcionar**. Avise a equipe para abrir o novo link.
+</Warning>
+
+## Duplicar ou mover para outro estabelecimento
+
+Em **Configurar → Estabelecimento**, use **Duplicar lista** (cria uma cópia, em qualquer estabelecimento) ou **Mover para outra loja** (só aparece se você tem mais de um estabelecimento). Escolha a loja de destino e confirme.
 
 <Card title="Próximo passo" icon="arrow-right" href="/listas-e-cotacoes/gerenciar-itens-da-lista">
   Escolha quais itens fazem parte da lista

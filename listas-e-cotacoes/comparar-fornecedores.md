@@ -32,9 +32,17 @@ Depois que os fornecedores respondem a cotação, o PraComprar mostra tudo lado 
   </Step>
 </Steps>
 
-<Note>
-  Se algum item ficar sem fornecedor selecionado, o PraComprar avisa antes de você aprovar — assim você não esquece nenhum produto de fora do pedido.
-</Note>
+## Ajustar a quantidade
+
+A quantidade é editada na **linha do produto** (não mais por fornecedor) e sincroniza em todas as cotações irmãs, para todos os fornecedores serem comparados com a mesma quantidade.
+
+## Itens não atendidos
+
+Se algum item ficar sem fornecedor selecionado, abre a janela **Itens não atendidos**. Nela você pode **Copiar lista**, **Enviar pelo WhatsApp** (para comprar de outra forma) ou **Aprovar mesmo assim**.
+
+## Finalizar cotações em aberto
+
+O botão **Finalizar cotações em aberto** aparece quando ainda há cotações sem decisão. Ele **rejeita todos os itens ainda abertos** e finaliza as cotações — útil para encerrar o que não vai ser comprado.
 
 <Tip>
   Clique em **Exportar Excel** a qualquer momento pra levar essa comparação pra uma planilha.

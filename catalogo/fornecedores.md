@@ -9,7 +9,7 @@ Cadastrar seus fornecedores é o que permite ao PraComprar enviar cotações e p
   <Step title="Acesse o Catálogo">
     No menu, entre em **Gestão de Itens** e clique na aba **Fornecedores**
   </Step>
-  <Step title='Clique em "Adicionar Fornecedor"'>
+  <Step title='Clique em "Adicionar fornecedor"'>
     Ou busque antes de cadastrar — se ele já existir na base (mesmo de outro cliente), o PraComprar localiza e evita duplicidade
   </Step>
   <Step title="Ou informe o CPF/CNPJ (opcional)">
@@ -20,6 +20,9 @@ Cadastrar seus fornecedores é o que permite ao PraComprar enviar cotações e p
     - **Nome do contato** — ex: *João Silva*
     - **Telefone/WhatsApp**
     - **E-mail**
+  </Step>
+  <Step title="Defina quem recebe nesta loja">
+    Ao localizar um fornecedor existente, o PraComprar mostra **quem recebe as cotações nesta loja**. Se ninguém recebe, escolha um vendedor da lista ou use **+ Cadastrar novo vendedor**. Para mudar depois, use **Trocar por**
   </Step>
   <Step title="Salve o cadastro">
     Pronto — o fornecedor já aparece na lista, pronto pra receber cotações pelo WhatsApp
@@ -33,6 +36,10 @@ A lista de fornecedores mostra nome, contato e WhatsApp de cada um, com três a�
 - **Atribuir** — [vincula vários produtos de uma vez](/catalogo/atribuir-produtos-em-massa) a esse fornecedor
 - ✏️ **Editar** — altera os dados do fornecedor
 - 🗑️ **Excluir** — remove o fornecedor do cadastro
+
+<Info>
+  O vendedor que recebe cotações e pedidos é definido **por loja**: o mesmo fornecedor pode ter contatos diferentes em cada estabelecimento.
+</Info>
 
 <Tip>
   Vincule cada produto do seu catálogo a um ou mais fornecedores — é essa vinculação que faz o PraComprar saber para quem enviar a cotação quando você gera uma lista de compras.

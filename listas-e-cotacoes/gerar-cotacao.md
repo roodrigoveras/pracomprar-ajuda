@@ -32,6 +32,10 @@ Depois de enviar um pedido, você pode pedir cotação para os fornecedores em v
   Compare as respostas e aprove os melhores preços
 </Card>
 
+<Card title="Sem lista? Peça direto do catálogo" icon="magnifying-glass" href="/listas-e-cotacoes/nova-cotacao">
+  Monte uma cotação avulsa escolhendo os produtos
+</Card>
+
 <Card title="Ou acompanhe tudo pelo histórico" icon="clock-rotate-left" href="/listas-e-cotacoes/historico-de-cotacoes">
   Veja o histórico completo de cotações e seus indicadores
 </Card>

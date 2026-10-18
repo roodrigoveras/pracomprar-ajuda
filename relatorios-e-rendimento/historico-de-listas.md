@@ -1,38 +1,56 @@
 ---
 title: "Histórico de listas geradas"
-description: "Como consultar, filtrar e exportar o histórico de listas de compra"
+description: "Como consultar, filtrar, mesclar, exportar e excluir as listas já enviadas"
 ---
 
-Toda lista de compras criada fica registrada no histórico, com filtros para você encontrar rapidamente o que precisa.
+Toda vez que alguém envia uma lista, o PraComprar guarda o envio. A tela **Listas Geradas** é o histórico dessas listas, por estabelecimento, com filtros para você encontrar rapidamente o que precisa.
+
+## Os números do período
+
+No topo, quatro cartões resumem o que está filtrado: **Envios**, **Pedidos**, **Contagens** e **Itens**.
 
 <Steps>
-  <Step title="Acesse Relatórios">
-    No menu, entre em **Relatórios → Listas Geradas** para ver o histórico completo
+  <Step title="Acesse Listas Geradas">
+    No menu lateral, entre em **Listas Geradas**
+  </Step>
+  <Step title="Escolha a loja">
+    Se você tem mais de um estabelecimento, o seletor permite ver **Todas as lojas** ou uma só
   </Step>
   <Step title="Filtre por período">
-    Use o seletor de período (padrão: **Este mês**) para escolher uma data específica ou um intervalo personalizado
+    Escolha **7 dias**, **Este mês** (padrão), **Mês anterior**, **90 dias**, **Tudo** ou **Personalizado** (informe **De** e **Até** e clique em **Aplicar**)
   </Step>
-  <Step title="Filtre por tipo e origem">
-    - **Tipo**: Todas / Normais / Mescladas
-    - **Origem**: Pedido / Contagem
+  <Step title="Filtre por tipo">
+    Use as abas **Todos, Pedido, Contagem, Contagem + Pedido** e **Mescladas**. Cada uma mostra quantas listas tem
   </Step>
-  <Step title="Clique numa lista pra ver os detalhes">
-    Abre a tela de [Detalhes da Lista Gerada](/relatorios-e-rendimento/detalhes-da-lista-gerada), onde você pode editar, reenviar ou pedir cotação
+  <Step title="Busque ou refine">
+    Digite o nome da lista ou da pessoa na busca. Em filtros adicionais, escolha a **Lista de origem** e quem enviou (**Enviado por**). **Limpar** zera tudo
   </Step>
-  <Step title="Ou selecione uma ou mais listas pra ações em lote">
-    Marque as listas que quer trabalhar em conjunto — a barra de ações aparece com as opções disponíveis
+  <Step title="Abra uma lista">
+    Clique nela para ver a tela de [Detalhes da Lista Gerada](/relatorios-e-rendimento/detalhes-da-lista-gerada), onde você pode editar, reenviar ou pedir cotação
   </Step>
 </Steps>
 
-## O que fazer com listas selecionadas
+A lista é **paginada**. Use os controles no rodapé para navegar pelos resultados.
+
+## Ações em lote
+
+Marque uma ou mais listas e a barra de ações aparece:
 
 | Ação | O que faz |
 |---|---|
 | **Mesclar** | Junta duas ou mais listas em uma só |
-| **Comparar** | Compara contagens entre listas |
-| **Conferência** | Gera uma lista de conferência a partir da seleção |
 | **Excel** | Exporta os dados para uma planilha |
-| **Excluir** | Remove as listas selecionadas permanentemente |
+| **Mais → Comparar contagens** | Compara contagens entre listas ([veja como](/relatorios-e-rendimento/comparar-contagens)) |
+| **Mais → Gerar conferência** | Cria uma [conferência de recebimento](/conferencias/conferencia-de-recebimento) a partir da seleção |
+| **Mais → Excluir** | Remove as listas selecionadas |
+
+<Warning>
+  Listas que **já geraram pedido** não podem ser excluídas, para você não apagar um pedido real sem querer.
+</Warning>
+
+## Quando a lista foi enviada só como aviso
+
+Se a lista usa o método de envio **Só avisar**, o destinatário recebe no WhatsApp apenas um aviso com um link curto. Ao abrir o link, ele entra na lista gerada (fazendo login, se precisar) — é preciso ter acesso aos relatórios da loja. Veja [Configurar lista](/listas-e-cotacoes/configurar-lista).
 
 <Card title="Veja também" icon="arrow-right" href="/relatorios-e-rendimento/transformacao-e-rendimentos">
   Veja como lançar produção e rendimento

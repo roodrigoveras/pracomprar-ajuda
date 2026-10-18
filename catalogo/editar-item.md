@@ -3,74 +3,95 @@ title: "Editar item"
 description: "Todas as abas da edição de um item: Geral, Categorias, Fornecedores, Locais, Fiscal, PDV e Lojas"
 ---
 
-Ao clicar em **Editar** num item em [Meus Itens](/catalogo/meus-itens), você abre uma tela com 7 abas — bem mais completa que o formulário inicial de [Adicionar Item](/catalogo/adicionar-item).
+Ao abrir um item em [Meus Itens](/catalogo/meus-itens), você entra numa tela com abas. No topo ficam a seta para voltar à lista e o ícone de lixeira para **excluir o item**. No rodapé ficam **Cancelar** e **Salvar**.
 
 ## Geral
 
-Além dos campos básicos (Nome, Unidade de Pedido, Unidade de Estoque, Estoque Ideal Padrão, Observação, Modelo de Rendimento, Origem do Item), a edição libera um campo extra:
+**Identificação:** Nome do item, **Origem**, **Modelo de rendimento** e Observação.
+
+**Unidades:** as três unidades do item e o estoque ideal.
+
+| Campo | Para que serve |
+|---|---|
+| **Pedido** | Lista de compras e cotações |
+| **Contagem** | Listas de contagem de estoque |
+| **Estoque** | Como o saldo é guardado |
+| **Estoque ideal** | Meta de reposição (pode mudar por categoria) |
+
+### Fatores de conversão
+
+Quando a unidade de pedido ou de contagem é diferente da de estoque, aparece o bloco **Fatores de conversão**, com uma linha para cada unidade. Exemplo: *1 caixa (pedido) = 4,8 kg (estoque)*.
 
 <Info>
-  **Fator de Conversão** — só aparece quando a Unidade de Pedido é diferente da Unidade de Estoque. Ex: *1 un = 4,8 kg*. Usado para converter automaticamente no recebimento, no rendimento e na comparação de cotações.
+  Conversões automáticas, como g para kg e ml para L, não pedem fator. Os fatores valem no recebimento, na contagem, no rendimento e nas cotações. Pedido e contagem se convertem entre si passando pela unidade de estoque.
 </Info>
 
 ## Categorias
 
-Mostra as categorias já vinculadas ao item, cada uma com sua própria **quantidade ideal** e **unidade** — ou seja, dá pra ter um estoque ideal diferente por categoria, sobrescrevendo o padrão definido na aba Geral.
+Mostra as categorias do item. Cada uma tem seu próprio **estoque ideal** e unidade. Se ficar vazio, vale o padrão do item.
 
 <Steps>
-  <Step title="Marque uma categoria como principal">
-    Clique na estrela ao lado da categoria — a categoria principal aparece com o badge **Principal**
+  <Step title="Marque a principal">
+    Clique na estrela ao lado da categoria. A principal ganha o selo **Principal**
   </Step>
-  <Step title="Ajuste a quantidade ideal daquela categoria">
-    Informe o valor e a unidade específicos, se forem diferentes do padrão do item
+  <Step title="Ajuste o ideal da categoria">
+    Informe o valor só se for diferente do padrão
   </Step>
-  <Step title="Vincule novas categorias">
-    Busque na lista abaixo, marque as desejadas e clique em **Adicionar selecionados**
+  <Step title="Adicione novas categorias">
+    Em **Adicionar categorias**, busque, marque e clique em **Adicionar selecionados**
   </Step>
 </Steps>
 
 ## Fornecedores
 
-Mostra os fornecedores vinculados, com o mesmo sistema de estrela pra marcar o **principal**.
+Mesma lógica: estrela para o **Principal** e **Adicionar selecionados** para vincular novos.
 
 <Info>
-  **Principal por loja** — se você tem mais de um estabelecimento, dá pra definir um fornecedor principal diferente por loja (útil quando um fornecedor não atende todas as unidades). Deixe em **"Usar o padrão"** pra manter o mesmo fornecedor principal de sempre, ou clique em **"padrão do item"** pra reverter.
+  **Principal por loja** — com mais de um estabelecimento, aparece a seção **Principal por loja**. Use quando um fornecedor não atende todas as unidades. Em **Usar o padrão**, vale o fornecedor principal do item.
 </Info>
-
-Pra adicionar um novo fornecedor, busque na lista, marque e clique em **Adicionar selecionados**.
 
 ## Locais
 
-Cada estabelecimento pode ter mais de um local de estoque (ex: *Estoque Fechado* e *Estoque Aberto*). Marque em quais locais esse item deve aparecer ao sincronizar com o estoque — o local marcado como **padrão** é usado quando nenhum é selecionado manualmente.
+Em quais locais de estoque o item aparece. Sem nenhum marcado, usa o local padrão.
 
 ## Fiscal
 
-Mesma lógica de cadastro dos [códigos GTIN/EAN](/catalogo/adicionar-item), mas aqui você também pode **excluir** um código já vinculado, clicando no ícone de lixeira ao lado dele.
+A aba **GTIN / EAN e nome para pedido** guarda as **variações** do item. Cada GTIN é uma embalagem ou marca (ex: caixa de 18 kg e caixa de 12 kg).
+
+Para cadastrar uma variação, informe:
+
+- **GTIN / EAN** — PLU, EAN-8, UPC-A, EAN-13 ou DUN-14 (só números)
+- **Descrição** (opcional)
+- **Nome para pedido** (opcional) — vai ao fornecedor no lugar do nome interno. Em branco, usa a descrição
+- **Fornecedor específico** (opcional) — restringe a variação a um fornecedor
+- **Fator desta variação** (opcional) — só vale quando esse GTIN é reconhecido, como na [importação de NF-e](/estoque/importar-nfe). Fora disso, vale o fator da aba Geral
+- **Composição** (opcional) — texto livre, só documentação (ex: *8 pacotes de 2,25kg*)
+- **Marcar como principal**
+
+Depois, clique em **Adicionar**. Para corrigir uma variação, edite-a na lista; para remover, use a lixeira.
 
 ## PDV
 
-Configure o código PDV desse item em cada sistema de vendas integrado — CardápioWeb, iFood, 99Food, Keeta, Saipos, Consumer e SoftPlus (a maioria ainda marcada como **Em breve**; apenas integrações **ativas** baixam estoque automaticamente).
+Em **Códigos PDV** você informa o código do item em cada sistema de vendas. Apenas integrações **ativas** (hoje o CardápioWeb) baixam estoque.
 
-### Modo de Baixa na Venda
+### Baixa na venda
 
-Esse campo controla como o estoque é abatido quando o item é vendido por uma integração, **especificamente nesta loja** (itens compartilhados entre lojas podem ter modo diferente em cada uma):
+O **Modo de baixa** vale **para esta loja**. Itens compartilhados podem ter modos diferentes em cada loja.
 
 | Opção | O que faz |
 |---|---|
-| **Não definido** | Gera pendência se o item for vendido, sem baixar estoque automaticamente |
-| **Baixa automática** | Desconta o estoque na hora da venda (ficha técnica ou 1:1) |
-| **Não controlado** | Não baixa estoque — use pra matéria-prima ou item que compõe um combo |
-| **Produção** | O controle é feito via Rendimento/Ficha Técnica, não pela venda direta |
+| **Não definido** | A venda gera pendência, sem baixar estoque |
+| **Baixa automática** | Desconta na venda, pela ficha técnica ou 1:1 |
+| **Não controlado** | Não baixa. Use para matéria-prima ou componente de combo |
+| **Produção** | Controlado via Rendimento ou Ficha Técnica |
 
-<Note>Esse campo só importa pra itens vendidos com código PDV configurado.</Note>
+<Note>
+  Só importa para itens vendidos com código PDV. Veja como tratar as pendências em [Vendas e pendências do CardápioWeb](/estoque/integracao-cardapioweb).
+</Note>
 
 ## Lojas
 
-Mesma tela de [Disponibilidade por Loja](/catalogo/adicionar-item) do cadastro — marque em quais estabelecimentos o item aparece.
-
----
-
-Em qualquer aba, os botões no rodapé permanecem os mesmos: **Cancelar**, **Excluir Item** e **Salvar Alterações**.
+Aparece só para quem tem mais de um estabelecimento. Marque as lojas em que o item deve aparecer.
 
 <Card title="Voltar" icon="arrow-right" href="/catalogo/meus-itens">
   Veja todos os itens já cadastrados

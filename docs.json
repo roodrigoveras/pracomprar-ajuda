@@ -34,6 +34,7 @@
         "pages": [
           "introducao/o-que-e-o-pracomprar",
           "introducao/instalar-o-app",
+          "introducao/configuracao-inicial",
           "introducao/minhas-tarefas",
           "introducao/dashboard"
         ]
@@ -68,6 +69,7 @@
           "listas-e-cotacoes/usuarios-da-lista",
           "listas-e-cotacoes/preencher-e-enviar-pedido",
           "listas-e-cotacoes/gerar-cotacao",
+          "listas-e-cotacoes/nova-cotacao",
           "listas-e-cotacoes/historico-de-cotacoes",
           "listas-e-cotacoes/comparar-fornecedores",
           "listas-e-cotacoes/detalhes-da-cotacao"
@@ -86,10 +88,45 @@
           "estoque/fazer-uma-contagem",
           "estoque/adicionar-estoque-manual",
           "estoque/importar-nfe",
+          "estoque/lancar-producao",
           "estoque/integracao-cardapioweb",
-          "estoque/conferencia-de-recebimento",
           "estoque/fichas-tecnicas",
+          "estoque/etiquetas",
           "estoque/impressao-pctray"
+        ]
+      },
+      {
+        "group": "Conferências e Transferências",
+        "icon": "clipboard-check",
+        "pages": [
+          "conferencias/painel-de-conferencias",
+          "conferencias/conferencia-de-recebimento",
+          "conferencias/minhas-conferencias",
+          "conferencias/transferencias-entre-lojas"
+        ]
+      },
+      {
+        "group": "Integrações",
+        "icon": "plug",
+        "pages": [
+          "integracoes/central-de-integracoes",
+          "integracoes/produtos-e-vinculos",
+          "integracoes/composicoes-de-combos",
+          "integracoes/recursos-e-regras"
+        ]
+      },
+      {
+        "group": "Financeiro",
+        "icon": "coins",
+        "pages": [
+          "financeiro/visao-geral",
+          "financeiro/configuracao-financeira",
+          "financeiro/lancamentos",
+          "financeiro/vendas",
+          "financeiro/compras",
+          "financeiro/recebimentos",
+          "financeiro/dre-e-cmv",
+          "financeiro/fluxo-de-caixa"
         ]
       },
       {
@@ -110,6 +147,7 @@
           "marketplace-e-rotinas/marketplace-de-fornecedores",
           "marketplace-e-rotinas/checklists-e-rotinas",
           "marketplace-e-rotinas/dashboard-de-rotinas",
+          "marketplace-e-rotinas/meu-turno",
           "marketplace-e-rotinas/gamificacao"
         ]
       },

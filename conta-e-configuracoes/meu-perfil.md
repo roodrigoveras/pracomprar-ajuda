@@ -1,33 +1,45 @@
 ---
 title: "Meu perfil"
-description: "Dados pessoais, endereço de cobrança e alteração de senha"
+description: "Dados pessoais, dados de cobrança, senha e transferência de propriedade"
 ---
 
-A aba **Meu Perfil**, dentro de **Configurações**, reúne seus dados de acesso e cobrança.
+A aba **Meu perfil**, dentro de **Configurações**, reúne seus dados de acesso e cobrança. Tudo é salvo junto, com um único botão **Salvar alterações**.
 
-## Informações Pessoais
+## Informações pessoais
 
-- **Nome Completo**
-- **E-mail**
-- **Telefone**
-- **CPF**
+**Nome completo**, **E-mail**, **Telefone** e **CPF**. O CPF é validado: se os dígitos não conferem, aparece o aviso **CPF inválido**.
 
-## Dados de Cobrança
+## Dados de cobrança
 
-Usados para faturamento e emissão de notas fiscais:
-- **CEP**, **Rua/Avenida**, **Número**, **Complemento** (opcional), **Bairro**, **Cidade**, **Estado**
+Usados para faturamento e nota fiscal: **CEP**, **Rua / avenida**, **Número**, **Complemento** (opcional), **Bairro**, **Cidade** e **Estado**.
 
-## Alterar Senha
+## Alterar senha
 
-Preencha **Nova Senha** e **Confirmar Nova Senha** só se quiser trocar — deixe os dois campos em branco pra manter a senha atual.
+Preencha **Nova senha** e **Confirmar nova senha** só se quiser trocar. Em branco, mantém a atual.
 
-Clique em **Salvar Alterações** ao final pra confirmar qualquer mudança.
+## Resumo da conta
 
-## Resumo da Conta
+No painel lateral aparecem **Conta criada** (data) e **Status** (ex: Ativo).
 
-Na lateral direita, um painel mostra:
-- **Conta criada em** — data de criação
-- **Status** — Ativo, por exemplo
+## Transferir propriedade
+
+Para o proprietário principal que tem sócios cadastrados, existe o bloco **Transferir propriedade**: passa a titularidade da conta para um sócio.
+
+<Steps>
+  <Step title="Escolha o estabelecimento e o sócio">
+    Selecione o **Estabelecimento** e, em **Transferir para**, o sócio que vai assumir
+  </Step>
+  <Step title="Confirme que entendeu">
+    Marque a caixa que reconhece que a ação é permanente
+  </Step>
+  <Step title="Clique em Confirmar transferência">
+    O destinatário assume o controle total e você passa a ser sócio comum
+  </Step>
+</Steps>
+
+<Warning>
+  A transferência é irreversível.
+</Warning>
 
 <Card title="Próximo passo" icon="arrow-right" href="/conta-e-configuracoes/assinatura">
   Veja o status da sua assinatura

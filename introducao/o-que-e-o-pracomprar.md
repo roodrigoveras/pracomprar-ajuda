@@ -7,6 +7,16 @@ O **PraComprar** é a plataforma que organiza toda a rotina de compras, estoque 
 
 Ele funciona direto do navegador, como um app instalável no celular ou computador, sem passar por loja de aplicativos, e se conecta ao WhatsApp pra automatizar boa parte da comunicação com fornecedores e equipe.
 
+## Vídeo: bem-vindo ao PraComprar
+
+Assista ao vídeo para conhecer o módulo antes de seguir o passo a passo.
+
+<video controls preload="metadata" src="/videos/bem-vindo-ao-pracomprar.mp4"></video>
+
+<Note>
+  Alguns recursos podem variar conforme o perfil de acesso e os módulos habilitados na sua conta.
+</Note>
+
 ## Os módulos do PraComprar
 
 <CardGroup cols={2}>
@@ -17,7 +27,16 @@ Ele funciona direto do navegador, como um app instalável no celular ou computad
     Monte listas de compras, escolha quais itens entram em cada uma, defina quem da equipe acessa o quê, envie cotação pra vários fornecedores por WhatsApp e compare os preços recebidos
   </Card>
   <Card title="Estoque" icon="boxes-stacked" href="/estoque/dashboard-de-estoque">
-    Dashboard, visualização por produto, locais de estoque, movimentações entre locais, alertas de reposição, contagens físicas, entrada manual, importação de NF-e e conferência de recebimento
+    Dashboard, visualização por produto, locais de estoque, movimentações, alertas de reposição, contagens físicas, entrada manual, importação de NF-e, lançamento de produção, etiquetas e fichas técnicas
+  </Card>
+  <Card title="Conferências e Transferências" icon="clipboard-check" href="/conferencias/painel-de-conferencias">
+    Confira o que chegou de cada fornecedor, acompanhe suas conferências atribuídas e transfira mercadoria entre lojas
+  </Card>
+  <Card title="Integrações" icon="plug" href="/integracoes/central-de-integracoes">
+    Conecte o CardápioWeb, vincule produtos vendidos aos itens do catálogo, monte composições de combos e baixe o estoque automaticamente a cada venda
+  </Card>
+  <Card title="Financeiro" icon="coins" href="/financeiro/visao-geral">
+    Lançamentos, vendas, compras, recebimentos, DRE, CMV e fluxo de caixa, quando o módulo está liberado para o seu estabelecimento
   </Card>
   <Card title="Transformação e Rendimentos" icon="scale-balanced" href="/relatorios-e-rendimento/transformacao-e-rendimentos">
     Registre o rendimento de produtos processados (peso de entrada, saída e perdas) e use a pesagem com tara pra estimar quanto resta de um produto a granel
@@ -26,7 +45,7 @@ Ele funciona direto do navegador, como um app instalável no celular ou computad
     Descubra novos fornecedores no marketplace, e organize rotinas recorrentes de abertura, fechamento e limpeza da equipe, com dashboard de cumprimento e gamificação opcional
   </Card>
   <Card title="Conta e Configurações" icon="gear" href="/conta-e-configuracoes/meu-perfil">
-    Perfil, assinatura e pagamento, estabelecimentos, equipe, importação/exportação de catálogo em massa e notificações
+    Perfil, assinatura (boleto ou Pix), estabelecimentos, equipe e permissões, importação/exportação de catálogo em massa, registros e notificações
   </Card>
 </CardGroup>
 

@@ -7,7 +7,7 @@ Essa ferramenta compara os itens contados em duas ou mais listas de contagem, mo
 
 <Steps>
   <Step title="Acesse o histórico de listas">
-    Em **Relatórios → Listas Geradas**, [filtre pelas listas de contagem](/relatorios-e-rendimento/historico-de-listas) que você quer comparar
+    Em **Listas Geradas**, [filtre pelas listas de contagem](/relatorios-e-rendimento/historico-de-listas) que você quer comparar
   </Step>
   <Step title="Selecione 2 ou mais contagens">
     Marque as listas de contagem que quer colocar lado a lado — só funciona com listas de contagem, não com listas de pedido

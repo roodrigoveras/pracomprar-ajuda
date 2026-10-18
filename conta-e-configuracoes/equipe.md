@@ -16,7 +16,7 @@ A aba **Equipe** é onde você gerencia todo mundo que tem acesso à sua conta �
     Use as abas **Todos / Proprietários / Gerentes / Colaboradores**, ou busque por nome, e-mail ou usuário
   </Step>
   <Step title='Adicione um novo usuário'>
-    Clique em **+ Novo usuário**
+    Clique em **Novo usuário**
   </Step>
 </Steps>
 
@@ -28,14 +28,15 @@ A aba **Equipe** é onde você gerencia todo mundo que tem acesso à sua conta �
     - **Usuário** — o login dele no sistema
     - **WhatsApp / Telefone**
     - **E-mail** (opcional)
-    - **Tipo de usuário** — Gerente ou Colaborador
-    - **Nova senha** (opcional — deixe em branco pra manter)
+    - **Tipo de usuário** — Proprietário, Gerente ou Colaborador
+    - **Username** — usado para fazer login
+    - **Senha** — mínimo de 6 caracteres. Ao editar, deixe em branco para manter a atual
   </Step>
   <Step title="Defina o estabelecimento principal">
     Escolha em qual loja esse usuário atua por padrão — esse campo é **obrigatório**
   </Step>
   <Step title="Salve">
-    Clique em **Salvar**
+    Clique em **Criar usuário** (ou **Salvar**, na edição)
   </Step>
 </Steps>
 
@@ -64,9 +65,15 @@ Clique no ícone de permissões (sliders) ao lado de um gerente ou colaborador p
     Módulo de Transformação e Rendimentos · Fichas Técnicas (criar, editar, executar) · Pesagem com Tara
   </Card>
   <Card title="Gerencial" icon="chart-line">
-    Visualizar Relatórios · Gerenciar Colaboradores
+    Executar Produção · Gerenciar Checklists · Visualizar Financeiro · Gerenciar Financeiro · Visualizar Relatórios · Gerenciar Colaboradores
   </Card>
 </CardGroup>
+
+Para colaboradores, o painel também mostra **Listas de compras**, onde você escolhe quais listas cada pessoa pode acessar. O gerente tem a seção **O que este gerente pode fazer**.
+
+<Info>
+  A equipe é exibida **por estabelecimento**: o nome da loja selecionada aparece no topo ("Equipe de ..."). Para dar acesso a outra loja, abra **Acesso a estabelecimentos**, escolha a loja em **Liberar acesso a outra loja** e depois selecione essa loja no topo da página para ajustar as permissões dela.
+</Info>
 
 Cada permissão é um toggle independente. Depois de ajustar, clique em **Salvar Permissões**.
 

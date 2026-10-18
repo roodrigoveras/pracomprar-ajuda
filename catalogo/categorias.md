@@ -25,16 +25,20 @@ Cada categoria da lista tem estas ações:
   <Card title="Atribuir" icon="link">
     [Vincula vários produtos de uma vez](/catalogo/atribuir-produtos-em-massa) a essa categoria
   </Card>
-  <Card title="Compartilhar" icon="share-nodes">
-    Compartilha essa categoria com outras lojas da sua conta — os produtos continuam sendo seus, só a categoria passa a existir também na outra loja
+  <Card title="Compartilhar com outras lojas" icon="share-nodes">
+    Por padrão a categoria só aparece na loja onde foi criada. Marque as outras lojas em que ela também deve aparecer, sem duplicar. Um selo com número mostra com quantas lojas ela está compartilhada
   </Card>
-  <Card title="Mover" icon="right-left">
-    Transfere a categoria de vez para outra loja. Diferente de compartilhar, mover troca o dono da categoria — ela deixa de existir na loja de origem
+  <Card title="Mover para outra loja" icon="right-left">
+    Troca o dono da categoria: ela sai desta loja e vai para a de destino, levando os itens vinculados. O sistema faz uma verificação antes de mover (**Verificar e mover**)
   </Card>
   <Card title="Editar / Excluir" icon="pen">
     Renomeia ou remove a categoria
   </Card>
 </CardGroup>
+
+<Info>
+  As categorias são **privadas por loja**. Cada estabelecimento enxerga só as suas, a menos que você compartilhe.
+</Info>
 
 <Note>
   Compartilhar e mover só aparecem se você tiver mais de um estabelecimento cadastrado — e só quem é "dono" da categoria (a loja onde ela foi criada) pode compartilhá-la.

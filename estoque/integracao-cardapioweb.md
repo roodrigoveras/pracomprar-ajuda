@@ -1,37 +1,48 @@
 ---
-title: "Integração com CardápioWeb"
-description: "Como conectar o CardápioWeb para sincronizar pedidos e baixar o estoque automaticamente"
+title: "Vendas e pendências do CardápioWeb"
+description: "Como acompanhar os pedidos recebidos do CardápioWeb e resolver o que ficou sem baixa de estoque"
 ---
 
 <Note>
-  Essa aba fica disponível apenas para estabelecimentos com a integração de vendas habilitada.
+  Essa tela fica disponível apenas para estabelecimentos com a integração do CardápioWeb habilitada. Para conectar e configurar, veja a [Central de Integrações](/integracoes/central-de-integracoes).
 </Note>
 
-O Integrador de Vendas conecta o PraComprar ao CardápioWeb, sincronizando os pedidos de venda e dando baixa automática no estoque conforme os produtos são vendidos.
+A tela de **Vendas e pendências** lista os pedidos que o CardápioWeb enviou ao PraComprar e mostra o que aconteceu com o estoque de cada um. Você a encontra no menu **Integrações → Vendas e pendências**.
 
 <Steps>
-  <Step title="Acesse o Integrador de Vendas">
-    Em **Estoque → Integrador**, a aba **CardápioWeb** já aparece ativa
+  <Step title="Escolha o período">
+    Use **Hoje**, **7 dias**, **30 dias** ou o ícone de período personalizado. Para achar um pedido específico, busque pelo ID
   </Step>
-  <Step title="Configure a conexão com a API">
-    Abra o painel de configuração e informe a chave de API do CardápioWeb para conectar sua conta
+  <Step title="Veja os números por situação">
+    Os cartões **Todos, Recebidos, Processados, Capturados, Agendados, Sem baixa, Atenção** e **Erros** funcionam como filtro
   </Step>
-  <Step title="Sincronize os pedidos">
-    Use **Sincronizar pedidos faltantes agora** para trazer pedidos que ainda não foram processados
+  <Step title="Resolva o que precisa de atenção">
+    Abra os pedidos em **Sem baixa**, **Atenção** ou **Erro** e siga a causa indicada
   </Step>
-  <Step title="Acompanhe a lista de pedidos">
-    Filtre por período (Hoje, 7 dias, 30 dias ou período customizado) ou busque por ID do pedido
+  <Step title="Confira a tendência e os mais vendidos">
+    Os painéis **Tendência** e **Mais vendidos** resumem o período. **Ver todos** abre o relatório completo de itens vendidos, filtrável por período e por nome ou código PDV
   </Step>
 </Steps>
 
-## Relatório de Itens Vendidos
+## O que cada situação significa
 
-Além da lista de pedidos, essa tela mostra um relatório com o total vendido por produto, filtrando por período (hoje, 7/30 dias, este mês, mês passado) e buscando por nome ou código PDV.
+| Situação | O que quer dizer |
+|---|---|
+| **Processado** | O estoque foi baixado automaticamente |
+| **Capturado** | Os itens foram registrados, mas o estoque não foi movimentado (modo diagnóstico) |
+| **Agendado** | Pré-venda: a baixa acontece quando o CardápioWeb confirmar o envio |
+| **Sem baixa** | O produto não tem ficha de venda nem modo de baixa. Vincule em [Produtos e vínculos](/integracoes/produtos-e-vinculos) para abater o estoque |
+| **Atenção** | Há códigos PDV sem vínculo ou cancelamentos que precisam de decisão |
+| **Erro** | O pedido falhou ao processar |
 
 ## Ações em pedidos com problema
 
 - **Repetir em lote** — tenta reprocessar pedidos que falharam
-- **Ignorar em lote** — marca pedidos com problema como ignorados, sem afetar o estoque
+- **Ignorar em lote** — marca como ignorados, sem afetar o estoque
+
+## Comparar com a API
+
+O painel lateral da API compara os pedidos do CardápioWeb com os recebidos pelo webhook, em janelas de 30 minutos até 24 horas. Use para descobrir se algum pedido se perdeu no caminho.
 
 <Card title="Voltar ao início do Estoque" icon="arrow-right" href="/estoque/dashboard-de-estoque">
   Veja o resumo geral do seu estoque

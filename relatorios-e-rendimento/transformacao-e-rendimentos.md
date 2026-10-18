@@ -1,54 +1,99 @@
 ---
 title: "Transformação e Rendimentos"
-description: "Como registrar o rendimento de um produto processado, com peso de entrada, saída e perdas"
+description: "Listas, campos de medição, modelos com meta, lançamentos, integração com estoque e ranking da equipe"
 ---
 
-O módulo **Transformação e Rendimentos** mede o aproveitamento real de um produto que passa por algum processamento — por exemplo, quanto de filé você obtém de um peixe inteiro, descontando aparas e pele.
+O módulo **Transformação e Rendimentos** mede o aproveitamento real de um produto que passa por processamento. Exemplo: quanto de filé você obtém de um peixe inteiro, descontando aparas e pele. Ele tem quatro abas: **Listas**, **Modelos**, **Relatórios** e **Pesagem com tara**.
 
-## Listas de Rendimento
+## Modelos de rendimento
+
+Um modelo define a **meta mínima de aproveitamento** de um processo (ex: *58,50%*).
 
 <Steps>
-  <Step title="Acesse Transformação e Rendimentos">
-    No menu, entre em **Transformação e Rendimentos**, aba **Listas de Rendimento**
+  <Step title="Abra a aba Modelos">
+    Em **Transformação e Rendimentos**, clique em **Modelos**
   </Step>
-  <Step title='Clique em "Nova Lista"'>
-    Cria uma lista para acompanhar o aproveitamento de um conjunto de itens (ex: uma lista só para os produtos do setor de peixaria)
+  <Step title='Clique em "Novo modelo"'>
+    Dê um nome (ex: *Processamento de salmão*) e informe a **Meta mínima de aproveitamento**
+  </Step>
+  <Step title="Associe aos itens">
+    No cadastro do item, o campo **Modelo de rendimento** liga o item ao modelo (veja [Editar item](/catalogo/editar-item))
   </Step>
 </Steps>
 
-## Lançando um registro de produção
+## Listas de rendimento
 
-Dentro de uma lista de rendimento, cada item processado tem seu próprio formulário de lançamento. Por exemplo, ao processar um salmão:
+Uma lista agrupa os itens que a equipe vai pesar (ex: o setor de peixaria).
 
 <Steps>
-  <Step title="Abra o item na lista">
-    Clique no produto que você processou (ex: *"SALMAO 14/16"*)
+  <Step title='Crie a lista'>
+    Na aba **Listas**, clique em **Nova lista** e dê um nome
   </Step>
-  <Step title="Informe a Data de Produção">
-    O dia em que esse produto foi processado
+  <Step title="Abra a gestão da lista">
+    Na lista, use o ícone de gerir itens, campos e permissões
   </Step>
-  <Step title="Preencha os pesos">
-    - **Peso Total** *(input)* — peso do produto antes de processar
-    - **Peso Filé** *(output)* — peso do que efetivamente vira produto utilizável
-    - **Peso Aparas** *(waste)* — peso do que sobra como apara
-    - **Peso Skin** *(waste)* — peso da pele ou outra parte descartada
+  <Step title='Adicione itens'>
+    Em **Adicionar item**, escolha o produto do catálogo. A coluna **Modelo** mostra a meta associada
   </Step>
-  <Step title="Atribua o lançamento (opcional)">
-    Por padrão, o lançamento fica em seu próprio nome — mas dá pra atribuir a um colaborador específico no campo **Atribuir este lançamento a**, útil quando é a equipe que realiza o processamento
+  <Step title="Defina os campos de medição">
+    No botão **Campos** do item, crie o que a equipe vai pesar. Cada campo tem nome, tipo e unidade
   </Step>
-  <Step title="Confirme o lançamento">
-    Clique em **Lançar Dados** — o sistema calcula automaticamente o percentual de rendimento (peso de saída ÷ peso de entrada)
+  <Step title="Escolha quem pode lançar">
+    Em **Quem pode lançar**, marque os colaboradores com acesso à lista e salve
+  </Step>
+</Steps>
+
+### Tipos de campo
+
+| Tipo | Para que serve | Exemplo |
+|---|---|---|
+| **Entrada (peso total)** | Peso antes de processar | Peixe inteiro |
+| **Aproveitamento** | O que vira produto utilizável | Filé |
+| **Perda** | O que é descartado | Aparas, pele |
+
+O rendimento é calculado como **aproveitamento ÷ entrada**. As perdas ajudam a explicar a diferença.
+
+## Integração com estoque
+
+No botão **Estoque** do item, você diz qual item do estoque corresponde a cada campo e o **local padrão**. Com a opção **Sugerir** ligada, ao lançar o rendimento o sistema propõe as movimentações: a entrada sai do estoque e o aproveitamento entra.
+
+<Note>
+  Se algum campo ficar sem local configurado, o sistema avisa que ele não será movimentado. Configure em **Gerir lista → Estoque**.
+</Note>
+
+## Lançando o rendimento
+
+<Steps>
+  <Step title="Abra a lista e o item">
+    Quem tem permissão escolhe a lista no menu e abre o item processado
+  </Step>
+  <Step title="Informe a data e os pesos">
+    Preencha a **Data de produção** e cada campo de medição
+  </Step>
+  <Step title="Lance em nome de outra pessoa (opcional)">
+    Em **Lançar em nome de**, escolha um funcionário. O padrão é **Eu mesmo**
+  </Step>
+  <Step title="Clique em Lançar pesagem">
+    Se houver mapeamento de estoque, abre a janela **Movimentações de estoque**, com entradas e saídas sugeridas. Use **Confirmar** para aplicar ou **Ignorar** para não movimentar
   </Step>
 </Steps>
 
 <Tip>
-  Quanto mais lançamentos você registra pra um mesmo produto, mais preciso fica o rendimento médio — útil pra precificar corretamente pratos e porções que usam esse insumo.
+  Depois de confirmar, o link **Ver no Estoque** leva às [movimentações](/estoque/movimentacoes) geradas.
 </Tip>
 
-## Modelos de Rendimento
+## Relatórios
 
-Em vez de configurar os campos do zero toda vez, salve **modelos** com metas e padrões de medição para cada tipo de processamento — acesse a aba **Modelos de Rendimento** e clique em **Novo Modelo**.
+Na aba **Relatórios**, escolha um **item** e um **período** (Últimos 7 dias, Últimos 15 dias, Este mês, Mês passado ou Todo o período). A tela mostra:
+
+- **Meta**, **Média da equipe**, **Lançamentos** e quantos ficaram **Na meta**
+- **Ranking da equipe** — rendimento médio por pessoa, com a marca da meta na barra
+- **Tendência ao longo do tempo** — gráfico do rendimento no período
+
+<Tip>
+  Quanto mais lançamentos de um produto, mais confiável fica o rendimento médio. Use-o para precificar pratos e porções.
+</Tip>
 
 <Card title="Próximo passo" icon="arrow-right" href="/relatorios-e-rendimento/pesagem-com-tara">
-  Use a pesagem com tara pra calcular quantidade restante em estoque
+  Use a pesagem com tara para estimar o que resta em estoque
 </Card>

@@ -6,8 +6,19 @@ description: "Como configurar a impressão automática em impressoras térmicas 
 O **pctray** é o agente de impressão do PraComprar — um programa que roda no seu computador e permite imprimir fichas técnicas, receitas e pedidos direto numa impressora térmica, sem passar pela caixa de diálogo de impressão do navegador.
 
 <Note>
-  O pctray é instalado separadamente no computador (Windows, macOS ou Linux). Depois de instalado, ele fica rodando em segundo plano e o PraComprar se conecta a ele automaticamente.
+  O pctray é instalado separadamente no computador do estabelecimento. O instalador atual é para **Windows**. Depois de instalado, ele roda em segundo plano (sem janela), abre junto com o Windows e mostra um ícone na bandeja com o status (*Conectado* ou *Sem sessão — faça login*), além de **Abrir log**, **Reiniciar agora** e **Sair**. O PraComprar se conecta a ele automaticamente.
 </Note>
+
+## Quais impressoras funcionam
+
+- **Impressoras térmicas ESC/POS de rede** — pelo endereço IP, porta 9100, sem driver do Windows
+- **Impressoras térmicas USB** — usando o compartilhamento da impressora no Windows
+
+Se a impressora estiver desligada ou offline, o pedido de impressão **não se perde**: o pctray guarda na fila e tenta de novo automaticamente (até 5 tentativas). Se sua conta tem mais de um estabelecimento, o instalador pede para escolher a loja no primeiro login.
+
+<Info>
+  Para a **etiqueta de validade**, use a [impressora Niimbot](/estoque/etiquetas), que conecta direto pelo Bluetooth do navegador e não depende do pctray.
+</Info>
 
 ## Como funciona
 

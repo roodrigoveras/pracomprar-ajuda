@@ -7,7 +7,7 @@ O Dashboard é a tela inicial do módulo de Estoque — um resumo rápido de com
 
 <Steps>
   <Step title="Acesse o Estoque">
-    No menu, entre em **Estoque** — o Dashboard já abre como aba padrão
+    No menu, entre em **Estoque** (a página se chama **Gestão de Estoque**) — o Dashboard já abre como aba padrão, com o título **Visão geral**
   </Step>
   <Step title="Confira os indicadores principais">
     - **Locais** — quantos locais de estoque você tem cadastrados
@@ -21,6 +21,13 @@ O Dashboard é a tela inicial do módulo de Estoque — um resumo rápido de com
     - **Movimentações recentes** — últimas entradas, saídas e transferências
   </Step>
 </Steps>
+
+## Atalhos do topo
+
+- **Importar NF-e** — leva direto para a aba [NF-e](/estoque/importar-nfe)
+- **Adicionar ao estoque** — abre o [lançamento manual](/estoque/adicionar-estoque-manual)
+
+O botão **Quem pode movimentar** (no topo da página, para proprietários e gerentes) define quais colaboradores podem movimentar estoque. **Ver todas**, em *Movimentações recentes*, abre o [histórico completo](/estoque/movimentacoes).
 
 <Tip>
   Clique em qualquer painel do Dashboard (Alertas, Estoque por local, Movimentações) para ir direto pra aba correspondente com mais detalhes.

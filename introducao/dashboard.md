@@ -1,56 +1,78 @@
 ---
 title: "Dashboard"
-description: "O painel de controle geral do seu negócio, com números, alertas e atalhos rápidos"
+description: "A visão geral da operação: economia, compras, vendas, estoque, conferências e atalhos"
 ---
 
-O **Dashboard** é a visão executiva do seu negócio — números consolidados, alertas e atalhos para as ações mais comuns, tudo numa tela só.
+O **Dashboard** abre com uma saudação (*Bom dia*, *Boa tarde* ou *Boa noite*) e reúne, numa tela só, o que está acontecendo na operação. Cada número é um atalho: toque nele para ir direto ao módulo.
 
 <Note>
-  O Dashboard é a visão completa, voltada ao proprietário. Se você procura uma lista simples do que está pendente pra fazer hoje, veja [Minhas Tarefas](/introducao/minhas-tarefas).
+  Para uma lista simples do que você precisa fazer hoje, veja [Minhas Tarefas](/introducao/minhas-tarefas). O Dashboard é a visão completa, voltada a quem gerencia.
 </Note>
 
-## Números gerais
+## Escolha a loja
 
-No topo, seis indicadores resumem sua operação: **Estabelecimentos**, **Listas de Compras**, **Itens Cadastrados**, **Fornecedores**, **Categorias** e **Colaboradores**.
+Quem tem acesso a mais de uma loja vê o seletor **Esta loja / Todas as lojas** no topo. O subtítulo mostra a loja exibida e a hora da última atualização. O botão de atualizar (seta circular) recarrega os números.
 
-Logo abaixo, quatro indicadores financeiros dos últimos 30 dias:
-- **Cotações (30 dias)** — quantidade enviada e taxa de aprovação
-- **Valor Aprovado (30 dias)** — total em compras aprovadas
-- **Economia (30 dias)** — quanto você economizou comparando fornecedores, com o percentual frente à média da plataforma
-- **Valor Cotado (mês atual)** — total já cotado no mês
+## Economia com cotações
 
-## Ações Rápidas
+O destaque no topo mostra quanto você já economizou comparando fornecedores, com um gráfico mensal. A economia é calculada por item: preço mais caro menos o mais barato, dividido pelo mais caro. Os botões **Nova cotação** e **Ver listas** ficam logo ao lado.
 
-Um painel lateral com atalhos diretos pra:
-- **Nova Lista**
-- **Nova Cotação**
-- **Nova Conferência**
-- **Adicionar Item**
-- **Ver Relatórios**
+## Hoje na operação
 
-## Alertas
+Quatro atalhos mostram o que pede atenção agora:
 
-Avisos que pedem atenção — por exemplo, quantos itens do catálogo ainda estão **sem fornecedor** vinculado.
+- **Conferências** — recebimentos em aberto
+- **Rotinas de hoje** — [checklists](/marketplace-e-rotinas/checklists-e-rotinas) do dia
+- **Estoque em alerta** — itens zerados ou abaixo do mínimo
+- **Vendas sem baixa** — vendas do CardápioWeb com [pendência](/estoque/integracao-cardapioweb)
 
-## Painéis de acompanhamento
+## Compras · últimos 30 dias
+
+- **Cotações** — quantidade e % de itens aprovados
+- **Valor aprovado** — total em compras aprovadas
+- **Economia** — frente ao fornecedor mais caro
+- **Aguardando você** — cotações respondidas esperando sua aprovação
+
+## Painéis
 
 <CardGroup cols={2}>
-  <Card title="Top 5 Itens Mais Pedidos" icon="ranking-star">
-    Os produtos que mais aparecem nos seus pedidos nos últimos 30 dias
+  <Card title="Vendas · CardápioWeb" icon="chart-line">
+    Faturamento dos últimos 30 dias e variação frente ao período anterior. **Ver vendas** abre a [Central de Integrações](/integracoes/central-de-integracoes)
   </Card>
-  <Card title="Cotações Recentes" icon="file-invoice">
-    Últimas cotações enviadas, com status (Aprovada, Cotada) e valores
+  <Card title="Estoque" icon="box">
+    Resumo do estoque e as últimas entradas por NF-e. **Abrir estoque** leva ao módulo
   </Card>
-  <Card title="Listas Recentes" icon="list-check">
-    Últimas listas criadas, com estabelecimento e quantidade de itens
+  <Card title="Itens mais pedidos" icon="ranking-star">
+    Os produtos que mais aparecem nos pedidos nos últimos 30 dias
   </Card>
-  <Card title="Conferências Pendentes" icon="clipboard-check">
-    Conferências em aberto, com responsável, data e progresso
+  <Card title="Listas recentes" icon="list-check">
+    Últimas listas criadas, com **Gerir listas** e **Criar lista**
   </Card>
-  <Card title="Por Categoria" icon="chart-pie">
-    Distribuição dos seus itens cadastrados por categoria, em percentual
+  <Card title="Precisa de atenção" icon="bell">
+    Alertas, como itens sem fornecedor
+  </Card>
+  <Card title="Conferências em aberto" icon="clipboard-check">
+    Conferências pendentes, com **Ver todas**
+  </Card>
+  <Card title="Cotações recentes" icon="file-invoice">
+    Últimas cotações enviadas, com status e valores
+  </Card>
+  <Card title="Itens por categoria" icon="chart-pie">
+    Distribuição do catálogo por categoria
   </Card>
 </CardGroup>
+
+## Ações rápidas
+
+**Nova lista**, **Nova cotação**, **Conferência**, **Estoque**, **Catálogo** e **Listas geradas**.
+
+## Cadastros
+
+Contadores de **Listas**, **Itens**, **Fornecedores**, **Categorias** e **Colaboradores**, cada um levando à tela correspondente.
+
+<Info>
+  Alguns painéis aparecem só se você tem permissão para aquela área ou se o módulo está ativo na sua loja. Por isso a tela pode parecer diferente entre proprietário, gerente e colaborador.
+</Info>
 
 <Card title="Veja também" icon="arrow-right" href="/introducao/minhas-tarefas">
   Conheça a tela de Minhas Tarefas

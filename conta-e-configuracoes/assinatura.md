@@ -1,40 +1,49 @@
 ---
 title: "Assinatura"
-description: "Plano ativo, renovação e histórico de pagamentos"
+description: "Plano, renovação, pagamento por boleto ou Pix e histórico de cobranças"
 ---
 
-A aba **Assinatura** mostra a situação do seu plano e o histórico completo de cobranças.
+A aba **Assinatura** mostra a situação do plano de cada estabelecimento e o histórico de cobranças. O pagamento é processado com segurança via Asaas.
 
-## Plano Ativo
+## Situações possíveis
 
-Um banner verde confirma quando o plano está ativo e funcionando normalmente, com os detalhes do plano contratado:
-- **Início** — data de contratação
-- **Vencimento** — próxima data de renovação
-- **Dias restantes** — contagem regressiva até o vencimento
+| Situação | O que você vê | Ação |
+|---|---|---|
+| **Plano ativo** | Aviso "Tudo funcionando normalmente", com início, vencimento e dias restantes | **Antecipar renovação**, se quiser pagar antes |
+| **Vence em breve** | Aviso de atenção | **Renovar agora** |
+| **Assinatura vencida** | Aviso em vermelho | **Reativar assinatura** para recuperar o acesso |
+| **Ative sua assinatura** | Primeira mensalidade ainda não paga | **Ativar agora** |
+| **Assinatura suspensa** | Suspensa por falta de pagamento | **Reativar assinatura** |
 
-<Tip>
-  Com o plano em dia, aparece o botão **Antecipar Renovação** — pra já garantir o próximo período sem esperar o vencimento chegar.
-</Tip>
+<Warning>
+  Com a assinatura vencida ou suspensa, o acesso fica bloqueado até o pagamento. Após a confirmação do pagamento, a situação da assinatura é atualizada. Se o acesso não for restabelecido, fale com o suporte.
+</Warning>
 
-## Quando há uma fatura pendente
+## Como pagar
 
 <Steps>
-  <Step title="Gerar Pix">
-    Clique em **Gerar Pix** — aparece um QR Code para pagamento imediato
+  <Step title="Clique no botão da situação">
+    Por exemplo, **Renovar agora** ou **Ativar agora**
   </Step>
-  <Step title="Pix automático (opcional)">
-    Ou use **Pix Automático**, que envia a solicitação de pagamento sem precisar copiar o código manualmente
+  <Step title="Escolha a forma de pagamento">
+    **Pagar com boleto ou Pix**. O Pix gera um QR Code com botão **Copiar** para o código
   </Step>
-  <Step title="Boleto (alternativa)">
-    Clique em **Gerar Boleto** se preferir pagar dessa forma — o link do PDF fica disponível para baixar
+  <Step title="Pague">
+    Quando o pagamento é processado, aparece **Pagamento confirmado!** e a assinatura é atualizada sozinha
   </Step>
 </Steps>
 
-<Info>O status muda para **Pagamento confirmado** automaticamente assim que o pagamento é processado.</Info>
+<Info>
+  Ao gerar um boleto, o Pix em aberto daquela fatura é substituído. Se você usa **Pix Automático**, a tela mostra **Aguardando confirmação** até você autorizar no app do banco. Depois do aviso **Pix confirmado**, a assinatura renova sozinha todo mês.
+</Info>
 
-## Histórico de Pagamentos
+## Contratar implementação
 
-Uma tabela lista todas as cobranças já geradas, com **Data**, **Valor**, **Método** (Pix, boleto ou manual) e **Status** (Pago ou cancelado).
+Para o estabelecimento que precisa de configuração e treinamento inicial, existe a opção **Contratar implementação**, com Pix próprio.
+
+## Histórico de pagamentos
+
+Cada cobrança mostra **Data**, descrição, **Valor**, **Método** (Pix ou Boleto) e o status: **Pago**, **Pendente**, **Cancelado**, **Expirado**, **Estornado**, **Falhou** ou **Vencido**. Em faturas abertas há ícones para baixar o boleto ou reabrir o QR Code do Pix, sem gerar outra cobrança.
 
 <Card title="Próximo passo" icon="arrow-right" href="/conta-e-configuracoes/estabelecimentos">
   Gerencie seus estabelecimentos

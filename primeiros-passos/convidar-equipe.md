@@ -7,15 +7,15 @@ O PraComprar permite que várias pessoas da sua equipe operem o sistema, cada um
 
 <Steps>
   <Step title="Acesse Equipe">
-    Em **Configurações → Equipe**, clique em **+ Novo usuário**
+    Em **Configurações → Equipe**, clique em **Novo usuário**
   </Step>
   <Step title="Preencha os dados básicos">
-    Nome, usuário (login), WhatsApp/telefone, e-mail (opcional) e o **Tipo de usuário** (Gerente ou Colaborador)
+    **Tipo de usuário** (Proprietário, Gerente ou Colaborador), nome completo, WhatsApp/telefone, e-mail (opcional), **Username** (o login) e **Senha** (mínimo de 6 caracteres)
   </Step>
   <Step title="Defina o estabelecimento principal">
     Obrigatório — é a loja em que esse usuário atua por padrão
   </Step>
-  <Step title="Salve">
+  <Step title="Clique em Criar usuário">
     A pessoa já pode fazer login com o usuário e senha cadastrados
   </Step>
 </Steps>

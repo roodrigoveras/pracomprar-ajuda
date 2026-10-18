@@ -16,10 +16,10 @@ Depois de [criar a lista](/listas-e-cotacoes/criar-lista-de-compras), esse é o 
     Use os botões **−** e **+**, ou digite direto, pra definir quanto pedir. Ao lado de cada item aparece o **Ideal** cadastrado no catálogo (a referência de quanto você normalmente mantém em estoque), pra te ajudar a decidir a quantidade
   </Step>
   <Step title="Salve como rascunho, se precisar continuar depois">
-    Clique em **Salvar Rascunho** — a lista fica salva com o que você já preencheu, sem enviar nada ainda
+    Clique em **Salvar rascunho** — a lista fica salva com o que você já preencheu, sem enviar nada ainda
   </Step>
-  <Step title='Envie o pedido quando terminar'>
-    Clique em **Enviar Pedido** (ou **Enviar Contagem**, se a lista for do tipo Contagem)
+  <Step title='Envie quando terminar'>
+    O botão muda conforme o tipo da lista: **Enviar pedido**, **Enviar contagem** ou **Enviar contagem e pedido**
   </Step>
 </Steps>
 
@@ -45,6 +45,14 @@ Depois de clicar em Enviar Pedido, você entra numa tela de confirmação antes 
 <Tip>
   Se você quer comparar preços entre fornecedores antes de decidir, use [Gerar uma cotação](/listas-e-cotacoes/gerar-cotacao) em vez do envio direto.
 </Tip>
+
+## Lista Contagem + pedido
+
+Cada item tem **dois contadores independentes**, lado a lado: um de **Contagem** (o que há no estoque) e um de **Pedido** (o que comprar), cada um na sua unidade (ex.: `cx / un`). Ao enviar, o PraComprar gera duas listas ligadas: uma de contagem e uma de pedido.
+
+## Como a lista chega ao destinatário
+
+Depende do **método de envio** configurado (veja [Configurar lista](/listas-e-cotacoes/configurar-lista)): **WhatsApp** abre a conversa com a listagem completa, **Bot PraComprar** envia a listagem aos destinatários e **Só avisar** manda apenas um aviso com o link para abrir a lista gerada.
 
 <Note>
   Se a lista for do tipo **Contagem** (em vez de Pedido), o botão muda para **Enviar Contagem** — mesma tela, mas usada pra registrar quantidades contadas em vez de quantidades a comprar.

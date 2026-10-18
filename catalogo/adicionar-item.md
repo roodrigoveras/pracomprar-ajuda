@@ -4,52 +4,53 @@ description: "Como cadastrar um novo produto no seu catálogo"
 ---
 
 <Note>
-  No menu, esse módulo aparece como **Gestão de Itens** — é onde fica todo o catálogo de produtos, categorias e fornecedores.
+  No menu, esse módulo aparece como **Gestão de Itens**. É onde ficam o catálogo de produtos, as categorias e os fornecedores.
 </Note>
 
-O catálogo é a base de tudo no PraComprar — é a partir dele que você monta listas de compras, cotações e controla o estoque.
+Assista ao [vídeo de Gestão de Itens](/catalogo/meus-itens) para conhecer o módulo.
+
+O catálogo é a base de tudo no PraComprar. É a partir dele que você monta listas de compras, cotações e controla o estoque.
 
 <Steps>
-  <Step title="Acesse Gestão de Itens">
-    No menu, entre em **Gestão de Itens** e clique na aba **Adicionar Item**
+  <Step title='Clique em "Novo item"'>
+    Em **Gestão de Itens**, use o botão **Novo item** no topo da tela
   </Step>
-  <Step title="Preencha o nome do item">
-    Ex: *"Tomate Orgânico"* — use um nome claro, é por ele que o item aparece nas buscas
+  <Step title="Preencha a identificação">
+    - **Nome do item** (obrigatório) — ex: *Tomate Orgânico*. É por ele que o item aparece nas buscas
+    - **Origem** — Sem classificação, Compra (matéria-prima), Produção interna ou Produto final
+    - **Modelo de rendimento** (opcional) — associe um modelo de [Transformação e Rendimentos](/relatorios-e-rendimento/transformacao-e-rendimentos) para calcular o aproveitamento
+    - **Observação** (opcional) — ex: *Fatiado fino, apenas da marca X*
   </Step>
   <Step title="Defina as unidades">
-    - **Unidade de Pedido** — como você compra do fornecedor (usada na lista de compras)
-    - **Unidade de Estoque** — como você controla no estoque; deixe em branco pra herdar a unidade de pedido
-  </Step>
-  <Step title="Informe o Estoque Ideal">
-    A quantidade que você quer sempre ter disponível — usada como meta de reposição. Pode ser sobrescrita por categoria
-  </Step>
-  <Step title="Classifique a Origem do Item">
-    Define onde esse item aparece nos filtros de **Meus Itens**:
-    - **Não classificado** — padrão, sem classificação
-    - **Compra (matéria-prima)** — item que você compra pronto de um fornecedor
-    - **Produção Interna (subproduto)** — item gerado a partir de outro (ex: filé depois de processar um peixe inteiro)
-    - **Produto Final** — item pronto pra venda ou uso final
-  </Step>
-  <Step title="Vincule um Modelo de Rendimento (opcional)">
-    Se esse item passa por algum processamento, associe um modelo já cadastrado em [Transformação e Rendimentos](/relatorios-e-rendimento/transformacao-e-rendimentos) — isso conecta o item ao cálculo de aproveitamento
-  </Step>
-  <Step title="Adicione uma observação (opcional)">
-    Ex: *"Fatiado fino, apenas da marca X, orgânico certificado..."*
+    O item pode usar até três unidades diferentes:
+    - **Pedido** — como você compra do fornecedor (usada na lista de compras)
+    - **Contagem** — como sua equipe conta nas listas de contagem
+    - **Estoque** — como o saldo é guardado
+    - **Estoque ideal** — a meta de reposição, na unidade de estoque
   </Step>
   <Step title="Vincule categorias e fornecedores">
-    Adicione uma ou mais categorias e um ou mais fornecedores direto nessa mesma tela
+    Na seção **Categorias e fornecedores**, adicione uma ou mais de cada. A estrela marca o principal
   </Step>
   <Step title="Salve o item">
-    Clique em **Salvar Novo Item** — ele já está disponível pra entrar em listas de compras e cotações
+    Clique em **Salvar item**. Ele já pode entrar em listas de compras e cotações
   </Step>
 </Steps>
 
-<Tip>
-  O formulário tem mais 4 seções opcionais (Locais de Estoque, Fiscal, PDV e Disponibilidade por Loja) que você pode configurar na mesma tela antes de salvar. Depois de criado, esses mesmos detalhes — e mais alguns — ficam disponíveis a qualquer momento em [Editar Item](/catalogo/editar-item).
-</Tip>
+## Seções opcionais
+
+Abaixo do formulário há quatro seções que abrem ao clicar. Você pode preencher agora ou depois, na edição:
+
+- **Locais de estoque** — sem nenhum marcado, o item usa o local padrão
+- **GTIN / EAN** — códigos de barras usados para reconciliar NF-e
+- **PDV** — o código do item no CardápioWeb (as outras integrações ficam na edição do item)
+- **Lojas** — com todas (ou nenhuma) marcadas, o item aparece em todas as lojas
+
+<Info>
+  **Fatores de conversão** (quando a unidade de pedido ou de contagem difere da de estoque) são preenchidos na edição do item, na aba **Geral**. Veja em [Editar item](/catalogo/editar-item).
+</Info>
 
 <Tip>
-  Prefere importar vários produtos de uma vez em vez de cadastrar um por um? Veja [Importar e exportar catálogo](/conta-e-configuracoes/importar-exportar-catalogo).
+  Prefere importar vários produtos de uma vez? Veja [Importar e exportar catálogo](/conta-e-configuracoes/importar-exportar-catalogo).
 </Tip>
 
 <Card title="Próximo passo" icon="arrow-right" href="/catalogo/editar-item">

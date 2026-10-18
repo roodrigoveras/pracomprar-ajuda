@@ -1,37 +1,35 @@
 ---
 title: "Usuários da lista"
-description: "Como definir quem da equipe acessa uma lista e quais categorias cada um pode ver"
+description: "Como definir quem da equipe acessa uma lista e quais categorias cada pessoa vê"
 ---
 
-Essa tela controla **quem da sua equipe pode acessar uma lista específica** — e, dentro dela, quais categorias cada pessoa enxerga.
+Essa tela controla **quem da sua equipe pode acessar uma lista** e, dentro dela, **quais categorias** cada pessoa enxerga.
 
 <Note>
-  Só proprietários e gerentes com permissão podem gerenciar usuários de uma lista.
+  Só proprietários e gerentes com permissão de editar listas podem gerenciar os usuários de uma lista. Gerentes com essa permissão têm acesso herdado e aparecem identificados na tela.
 </Note>
 
 <Steps>
-  <Step title="Abra Usuários da Lista">
-    Em **Minhas Listas**, clique no ícone de **Usuários** na lista desejada
+  <Step title="Abra os usuários da lista">
+    Em **Minhas Listas**, clique no ícone de **Usuários** da lista
   </Step>
-  <Step title="Filtre, se precisar">
-    Filtre por nome, por tipo de usuário (Gerente/Colaborador) ou por status de acesso
+  <Step title="Use os contadores para filtrar">
+    **Usuários**, **Com acesso** e **Sem acesso** mostram quantas pessoas estão em cada situação. Clique para filtrar. Também dá para buscar por nome ou e-mail e filtrar por **Gerentes** ou **Colaboradores**
   </Step>
-  <Step title="Ative ou desative o acesso">
-    Use o toggle na coluna **Ações** pra dar ou tirar o acesso daquele usuário à lista — o status muda entre **Com acesso** e **Sem acesso**
+  <Step title="Dê ou tire o acesso">
+    Use a chave de cada linha (**Dar acesso** / **Tirar acesso**)
   </Step>
-  <Step title="Configure as categorias permitidas">
-    Clique no botão **X categoria(s)** ao lado do usuário — abre um modal onde você marca exatamente quais categorias aquela pessoa pode ver dentro dessa lista
-  </Step>
-  <Step title="Selecione as categorias">
-    Marque uma a uma, ou use **Selecionar Todas** / **Limpar Seleção**
-  </Step>
-  <Step title='Clique em "Salvar Permissões"'>
-    A partir daí, esse usuário só vê as categorias liberadas quando acessar essa lista
+  <Step title="Restrinja as categorias">
+    Abra o painel de **categorias** da linha. Ele abre na própria linha, com busca e os botões **Todas** e **Nenhuma**. Marque as categorias que a pessoa pode ver e clique em **Salvar categorias**
   </Step>
 </Steps>
 
+<Info>
+  Marcar **todas** as categorias grava "sem restrição": quando você criar uma categoria nova, ela passa a aparecer sozinha para essa pessoa. Para bloquear a lista inteira, desligue o acesso em vez de desmarcar tudo.
+</Info>
+
 <Tip>
-  Isso é útil quando um colaborador só cuida de um setor — por exemplo, liberar só a categoria "Sushibar" pra quem trabalha naquela estação, sem precisar ver o resto da lista.
+  Útil quando um colaborador só cuida de um setor — por exemplo, liberar só a categoria **Sushibar** para quem trabalha naquela estação.
 </Tip>
 
 <Card title="Voltar" icon="arrow-right" href="/listas-e-cotacoes/criar-lista-de-compras">

@@ -1,59 +1,64 @@
 ---
 title: "Pesagem com Tara"
-description: "Como usar a calculadora de pesagem com tara para estimar quantidade restante em estoque"
+description: "Como estimar o que resta de um produto pesando a embalagem, com tolerância e aprovação do gestor"
 ---
 
-A Pesagem com Tara serve pra descobrir quanto ainda resta de um produto vendido a granel ou em sachês — sem precisar contar unidade por unidade — só pesando a embalagem na balança.
+A Pesagem com Tara descobre quanto ainda resta de um produto a granel ou em sachês sem contar unidade por unidade. Basta pesar a embalagem na balança.
+
+Ela está na aba **Pesagem com tara** de [Transformação e Rendimentos](/relatorios-e-rendimento/transformacao-e-rendimentos) e também numa página própria, com o título **Pesagem com tara** (escolha o modelo, informe o peso da embalagem e registre o que sobrou).
 
 ## Cadastrando um modelo de tara
 
-Antes de usar a calculadora, você precisa ter pelo menos um modelo cadastrado com os pesos de referência do produto.
-
 <Steps>
-  <Step title="Acesse a aba Pesagem com Tara">
-    Dentro de **Transformação e Rendimentos**
-  </Step>
   <Step title='Clique em "Novo Modelo de Tara"'>
-    Abre o formulário de cadastro
+    Na seção **Modelos de tara**
   </Step>
-  <Step title="Preencha os dados do modelo">
-    - **Nome do modelo** — ex: *"Sachê — Ketchup"*
-    - **Peso cheio** — peso da embalagem totalmente cheia, ex: *1.350 g*
-    - **Tara** — peso da embalagem vazia, ex: *205 g*
-    - **Quantidade de unidades** — quantas unidades (sachês, porções) a embalagem cheia contém
+  <Step title="Preencha os dados">
+    - **Nome do modelo** — ex: *Sachê — Ketchup*
+    - **Item do catálogo** (opcional) — vincula o resultado ao item do estoque
+    - **Peso total lacrado** — embalagem cheia, ex: *1.350 g*
+    - **Tara da embalagem** — embalagem vazia, ex: *205 g*
+    - **Qtd. na embalagem cheia** — quantas unidades ela contém
+    - **Unidade do resultado**
+    - **Tolerância para auto-aprovação** — variação máxima aceita sem precisar do gestor
   </Step>
-  <Step title="Salve o modelo">
-    O sistema calcula sozinho o peso por unidade (ex: *7,6333 g/unidade*) — é esse valor que faz a estimativa funcionar depois
+  <Step title="Salve">
+    O sistema mostra o **peso por unidade** calculado
   </Step>
 </Steps>
 
-## Usando a calculadora no dia a dia
+## Usando a calculadora
 
 <Steps>
-  <Step title="Selecione o estabelecimento">
-    No topo da tela, confirme qual estabelecimento você está pesando
+  <Step title="Selecione o estabelecimento e o modelo">
+    A tela mostra **Peso cheio**, **Tara** e **Por unidade**
   </Step>
-  <Step title="Escolha o Modelo de Tara">
-    Selecione o modelo já cadastrado (ex: *"Sachê — Ketchup"*) — a tela mostra o peso cheio, a tara e o peso por unidade daquele modelo
+  <Step title="Informe o peso atual da embalagem">
+    Pese a embalagem com o produto restante e digite o valor
   </Step>
-  <Step title="Pese a embalagem e informe o peso atual">
-    Coloque a embalagem (ainda com o produto restante) na balança e digite o peso mostrado, em gramas
+  <Step title="Clique em Calcular">
+    O sistema desconta a tara, divide pelo peso por unidade e mostra a **Quantidade estimada restante**, junto com o **Estoque atual** e a **Variação**
   </Step>
-  <Step title='Clique em "Calcular"'>
-    O sistema desconta a tara e divide pelo peso por unidade, mostrando a **quantidade estimada restante** (ex: *4.193,468 unidades*)
+  <Step title="Observação (opcional)">
+    Ex: *Caixa aberta, gaveta 3*
   </Step>
-  <Step title="Adicione uma observação (opcional)">
-    Ex: *"Caixa aberta, gaveta 3"* — ajuda a identificar onde estava esse produto
-  </Step>
-  <Step title='Clique em "Registrar no Estoque"'>
-    A quantidade calculada é lançada no seu estoque automaticamente
+  <Step title="Clique em Registrar no estoque">
+    O resultado entra como uma contagem de estoque
   </Step>
 </Steps>
 
-<Tip>
-  A tela também mostra o **estoque atual** e a **variação** entre o que já estava registrado e o novo cálculo, pra você perceber rapidamente se algo foge do esperado.
-</Tip>
+## Auto-aprovação
 
-<Card title="Voltar ao início" icon="arrow-right" href="/relatorios-e-rendimento/transformacao-e-rendimentos">
+| Situação | O que acontece |
+|---|---|
+| Variação **dentro da tolerância** | O estoque é atualizado na hora |
+| Variação **acima da tolerância** | O registro fica **aguardando aprovação do gestor** |
+| Modelo **sem tolerância** | Sempre vai para aprovação |
+
+<Info>
+  Na lista de modelos, o selo mostra a tolerância de cada um (por exemplo, ±5 un) ou **Sem auto-aprovação**.
+</Info>
+
+<Card title="Voltar" icon="arrow-right" href="/relatorios-e-rendimento/transformacao-e-rendimentos">
   Veja como lançar produção e rendimento
 </Card>

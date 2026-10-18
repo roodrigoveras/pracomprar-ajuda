@@ -24,7 +24,7 @@ Em vez de editar item por item, você pode vincular vários produtos de uma só 
     Marque um a um, ou use **Selecionar tudo**. Itens que já estão vinculados aparecem com a marca **Já vinculado**
   </Step>
   <Step title="Confirme a atribuição">
-    Os produtos selecionados passam a ter esse fornecedor ou categoria vinculado
+    Clique em **Confirmar atribuição**. Os produtos selecionados passam a ter esse fornecedor ou categoria vinculado
   </Step>
 </Steps>
 

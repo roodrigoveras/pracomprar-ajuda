@@ -41,7 +41,13 @@ Conectar o WhatsApp é o que permite ao PraComprar enviar **cotações** e **ped
 
 ## Se o WhatsApp desconectar
 
-Isso pode acontecer se o celular ficar muito tempo offline. Basta voltar em **WhatsApp Business** e clicar em **Reconectar WhatsApp**, escaneando o QR Code novamente.
+Isso pode acontecer se o celular ficar muito tempo offline. Basta voltar em **WhatsApp Business** e clicar em **Reconectar WhatsApp**, escaneando o QR Code novamente. Se quiser apagar a conexão de vez, use **Remover Configuração**.
+
+## Avisos importantes
+
+- Use um número dedicado ao estabelecimento (recomendamos WhatsApp Business)
+- Não use o mesmo número em mais de um estabelecimento
+- Com o WhatsApp desconectado, cotações e pedidos não saem pelo seu número. Nesse período, o PraComprar usa o WhatsApp principal da plataforma como alternativa. Reconecte o quanto antes
 
 <Card title="Próximo passo" icon="arrow-right" href="/listas-e-cotacoes/criar-lista-de-compras">
   Crie sua primeira lista de compras

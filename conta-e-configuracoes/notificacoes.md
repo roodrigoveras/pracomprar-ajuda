@@ -10,13 +10,13 @@ O PraComprar avisa sobre eventos importantes — resposta de cotação, conferê
     No menu, entre em **Notificações**
   </Step>
   <Step title="Filtre por tipo ou status">
-    Use os filtros para ver só as notificações de um tipo específico, ou só as não lidas
+    Use o filtro de tipo (**Todos os Tipos**, **Assinatura**, **Lista de Compras**, **Sistema** ou **Anúncio**) e o de situação (**Todas**, **Não Lidas** ou **Lidas**)
   </Step>
   <Step title="Clique em uma notificação">
     Abre os detalhes completos — e ela é automaticamente marcada como lida
   </Step>
   <Step title='Ou marque tudo de uma vez'>
-    Use o botão **Marcar todas como lidas** para limpar a lista rapidamente
+    Use o botão **Marcar Todas como Lidas** para limpar a lista rapidamente
   </Step>
 </Steps>
 

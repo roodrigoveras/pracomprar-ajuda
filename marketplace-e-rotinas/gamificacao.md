@@ -10,7 +10,7 @@ A gamificação transforma o cumprimento das rotinas em pontuação, níveis e s
     Dentro de **Rottinas**, clique na aba **Gamificação**
   </Step>
   <Step title="Ative a gamificação">
-    Clique em **Configurações** e ative a chave **Ativada**
+    Clique em **Configurações** e ative a chave **Gamificação ativada**
   </Step>
   <Step title="Defina a pontuação">
     - **Bônus por tarefa concluída no prazo** — pontos extras somados por execução sem atraso
@@ -18,10 +18,10 @@ A gamificação transforma o cumprimento das rotinas em pontuação, níveis e s
     - **Sequência (streak)** — ative se quiser exigir atividade todo dia para manter a sequência
   </Step>
   <Step title="Configure os níveis por pontuação">
-    Clique em **Adicionar nível** e defina um nome (ex: *"Bronze"*) e a pontuação mínima necessária para alcançá-lo
+    Clique em **Nível** e defina um nome (ex: *"Bronze"*) e a pontuação mínima necessária para alcançá-lo
   </Step>
   <Step title="Salve as configurações">
-    Clique em **Salvar configurações**
+    Clique em **Salvar**
   </Step>
 </Steps>
 

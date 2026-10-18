@@ -1,56 +1,59 @@
 ---
-title: "Minhas Tarefas"
-description: "O painel que reúne tudo que está pendente pra você: listas, rendimentos, conferências e estoque"
+title: "Minhas Tarefas (tela inicial)"
+description: "O que aparece na tela de boas-vindas e como ela ajuda cada pessoa da equipe a saber o que fazer agora"
 ---
 
-**Minhas Tarefas** é a tela de boas-vindas que abre logo após o login. O objetivo dela é simples: mostrar, de cara, tudo que está aguardando sua ação — sem precisar navegar módulo por módulo procurando o que falta fazer.
+**Minhas Tarefas** é a tela de boas-vindas (o ícone de casa, **Início**). Ela abre depois do login com o seu nome e o estabelecimento ativo, e junta tudo que está **esperando por você** — sem precisar abrir módulo por módulo.
 
-Ela existe principalmente pensando em **quem tem tarefas específicas atribuídas** — colaboradores e gerentes que só precisam ver o que foi designado a eles (uma lista pra preencher, uma conferência pra revisar). Mas o proprietário também passa por ela: se não houver nada pendente, a tela mostra um aviso convidando a acessar o Dashboard pra criar algo novo.
+Foi pensada principalmente para **quem tem tarefas atribuídas** — colaboradores e gerentes. O proprietário também passa por ela e, sendo proprietário ou gerente, encontra logo abaixo da saudação o botão **Ir para o Dashboard**, para sair da visão de tarefas e abrir todos os módulos.
 
 ## O que aparece nessa tela
 
 <CardGroup cols={2}>
-  <Card title="Listas" icon="cart-shopping">
-    Listas de compras em aberto, com o estabelecimento de cada uma
+  <Card title="Atividades de hoje" icon="circle-check">
+    Suas [Rottinas](/marketplace-e-rotinas/checklists-e-rotinas) do dia. **Ver todas** abre o [Meu turno](/marketplace-e-rotinas/meu-turno)
   </Card>
-  <Card title="Transformação e Rendimentos" icon="scale-balanced">
-    Atalhos pra lançar rendimento de produtos e usar a pesagem com tara
+  <Card title="Minha pontuação" icon="trophy">
+    Pontos dos últimos 30 dias e sequência de dias seguidos, da [gamificação](/marketplace-e-rotinas/gamificacao). Só aparece para quem já pontuou
+  </Card>
+  <Card title="Listas" icon="cart-shopping">
+    As listas que você pode preencher, com o estabelecimento de cada uma
+  </Card>
+  <Card title="Transformação e rendimentos" icon="scale-balanced">
+    Atalhos para lançar rendimento e usar a [pesagem com tara](/relatorios-e-rendimento/pesagem-com-tara)
   </Card>
   <Card title="Conferências" icon="clipboard-check">
-    Conferências de recebimento em andamento, com status (ex: *Pronto para Revisão*) e barra de progresso (ex: *89/96* itens conferidos)
+    Recebimentos em andamento, com situação e progresso (ex.: *89/96* itens). Veja [Minhas conferências](/conferencias/minhas-conferencias)
+  </Card>
+  <Card title="Recebimento de transferências" icon="truck-ramp-box">
+    Transferências de outra loja esperando conferência. Veja [Transferências entre lojas](/conferencias/transferencias-entre-lojas)
   </Card>
   <Card title="Estoque" icon="boxes-stacked">
-    Atalho pra movimentar estoque entre locais, e contagens físicas em andamento com progresso (ex: *132/248* itens contados)
+    Atalho **Movimentar estoque** e as contagens físicas em andamento, com progresso (ex.: *132/248* itens). Veja [Contagem de estoque](/estoque/fazer-uma-contagem)
   </Card>
 </CardGroup>
 
-<Steps>
-  <Step title="Acesse Minhas Tarefas">
-    É a tela que abre logo após o login, mostrando seu nome e o estabelecimento ativo no topo
-  </Step>
-  <Step title="Escolha o que quer continuar">
-    Clique em qualquer card — lista, rendimento, conferência ou contagem — pra retomar exatamente de onde parou
-  </Step>
-  <Step title="Acesse o painel completo, se precisar">
-    Use o botão **Ir para o Dashboard**, no final da tela, pra sair da visão de tarefas e acessar todos os módulos do sistema
-  </Step>
-</Steps>
+<Note>
+  Cada pessoa só vê o que foi liberado para ela. Quem não tem permissão para movimentar estoque, por exemplo, não vê esse atalho.
+</Note>
 
-<Tip>
-  Como cada card já mostra o progresso (quantos itens faltam, em que status está), essa tela é o jeito mais rápido de saber "o que ainda preciso terminar hoje" sem abrir cada módulo pra conferir.
-</Tip>
+## Cartões bloqueados por assinatura
+
+Quando a assinatura de uma loja está inativa, as listas, conferências e contagens dela aparecem **em cinza, com cadeado** e a etiqueta *Acesso bloqueado*. Ao tocar:
+
+- **Proprietário** — recebe a explicação e o botão **Regularizar assinatura**, que leva direto à cobrança daquela loja
+- **Gerente** — é orientado a falar com o proprietário ou administrador para regularizar o pagamento
+- **Colaborador** — vê apenas a orientação para falar com o gerente ou proprietário, sem dados de cobrança
 
 ## Se não houver nada pendente
 
-Quando não existe nenhuma lista, conferência, contagem ou rendimento em aberto, a tela mostra uma mensagem diferente dependendo de quem está vendo:
+- **Proprietário** — *Nenhum item ativo*, com a sugestão de abrir o Dashboard para criar algo novo
+- **Gerente ou colaborador** — *Aguardando designação*: ainda não há tarefa atribuída; fale com o administrador da conta
 
-- **Proprietário** — *"Nenhum item ativo"*, com a sugestão de acessar o Dashboard pra criar algo novo
-- **Gerente ou colaborador** — *"Aguardando designação"*, indicando que ainda não foi atribuída nenhuma tarefa e que é preciso falar com o administrador da conta
+<Tip>
+  Como cada cartão mostra o progresso, esta tela é o jeito mais rápido de saber "o que ainda preciso terminar hoje".
+</Tip>
 
 <Card title="Veja o painel completo" icon="arrow-right" href="/introducao/dashboard">
-  Conheça o Dashboard, com números e relatórios do seu negócio
-</Card>
-
-<Card title="Próximo passo" icon="arrow-right" href="/catalogo/adicionar-item">
-  Monte seu catálogo de produtos
+  Conheça o Dashboard, com números do seu negócio
 </Card>
